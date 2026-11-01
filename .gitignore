@@ -5,3 +5,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 .env
+
+# Internal notes, kept local
+BUILD_PLAN.md
+docs/first-harvest-review.md
