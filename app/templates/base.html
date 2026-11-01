@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}A monthly check on whether Rhet/Comp journals will stay online, survive if they go offline, and stay findable.{% endblock %}">
+<link rel="canonical" href="{{ canonical }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site_name }}">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:url" content="{{ canonical }}">
+<link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
+<meta name="theme-color" content="#F5EFE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171512" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="{{ url_for('static', filename='vendor/fonts.css') }}?v={{ version }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='vendor/tokens.css') }}?v={{ version }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='vendor/style.css') }}?v={{ version }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='site.css') }}?v={{ version }}">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="wordmark" href="{{ url_for('index') }}">
+      <span class="name">{{ site_name }}</span>
+      <span class="sub">{{ site_tagline }}</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="{{ url_for('index') }}"{% if nav == 'index' %} aria-current="page"{% endif %}>Journals</a>
+      <a href="{{ url_for('methods') }}"{% if nav == 'methods' %} aria-current="page"{% endif %}>Methods</a>
+      <a href="{{ url_for('about') }}"{% if nav == 'about' %} aria-current="page"{% endif %}>About</a>
+      <a class="out" href="{{ eunomia_url }}/">Eunomia's Labors</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1"{% block main_class %}{% endblock %}>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <p>{{ site_name }} is run by Justin Lewis, who also runs
+       <a href="{{ eunomia_url }}/">Eunomia's Labors</a>, which helps journals deposit DOIs and
+       reference lists, and <a href="{{ pinakes_url }}/">Pinakes</a>, an index of the field's
+       journals.</p>
+    <p class="data-line">{% block data_line %}Every figure comes from a public source named on the
+      <a href="{{ url_for('methods') }}">methods page</a>, and each month's results are published as
+      <a href="{{ url_for('latest_json') }}">JSON</a>.{% endblock %}</p>
+  </div>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

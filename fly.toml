@@ -1,0 +1,32 @@
+# Fly app for Journal Health Check. Not deployed yet: the first `fly deploy`
+# waits on Justin's go-ahead.
+#
+# BASE_URL is the only place the public hostname appears. Moving to a custom
+# domain later is `fly certs add <domain>`, a DNS record, and a change here.
+
+app = "journal-health-check"
+primary_region = "sea"
+
+[build]
+
+[env]
+  BASE_URL = "https://journal-health-check.fly.dev"
+  JHC_PREVIEW_NOTICE = "1"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "30s"
+    method = "GET"
+    path = "/health/ready"
+    timeout = "5s"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

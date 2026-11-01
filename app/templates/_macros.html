@@ -1,0 +1,14 @@
+{% macro badge(status, compact=false) -%}
+<span class="st st-{{ status }}"><span class="st-icon" aria-hidden="true">{{ STATUS_ICON[status] }}</span>{% if not compact %} {{ STATUS_LABEL[status] }}{% else %}<span class="vh"> {{ STATUS_LABEL[status] }}</span>{% endif %}</span>
+{%- endmacro %}
+
+{% macro area_cell(s) -%}
+{%- if s.applicable -%}
+<span class="score"><strong>{{ s.pass }}</strong> of {{ s.applicable }}</span>
+{%- if s.unknown %}<span class="score-note">{{ s.unknown }} unknown</span>{% endif -%}
+{%- elif s.unknown -%}
+<span class="score score-none">unknown</span>
+{%- else -%}
+<span class="score score-none">n/a</span>
+{%- endif -%}
+{%- endmacro %}

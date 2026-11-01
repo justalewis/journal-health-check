@@ -1,0 +1,97 @@
+/* Journal Health Check additions to the vendored Alexandrian Suite.
+   Everything here uses the suite's tokens; nothing redefines them. */
+
+main.wide { max-width: 78rem; }
+main.wide > section.prose { max-width: 46rem; }
+
+/* -- Status badges. Never colour alone: every badge carries an icon and,
+      outside the dense table, a word. Faience marks absence (n/a) only. */
+.st {
+  display: inline-flex; align-items: center; gap: 0.3em;
+  font-family: var(--f-ui); font-size: 0.78rem; font-weight: 700;
+  padding: 0.08em 0.45em; border-radius: var(--radius-sm); white-space: nowrap;
+  line-height: 1.5;
+}
+.st-icon { font-family: var(--f-ui); font-weight: 700; min-width: 0.8em; text-align: center; }
+.st-pass    { background: var(--good-bg);    color: var(--good-fg); }
+.st-warn    { background: var(--warn-bg);    color: var(--warn-fg); }
+.st-fail    { background: var(--err-bg);     color: var(--err-fg); border: 1px solid currentColor; }
+.st-unknown { background: var(--neutral-bg); color: var(--neutral-fg); }
+.st-na      { background: var(--faience-wash); color: var(--faience); font-weight: 400; }
+
+/* -- The journal table */
+table.journals th.chk, table.journals td.chk { text-align: center; padding-left: 0.3rem; padding-right: 0.3rem; }
+table.journals thead th.chk { white-space: normal; max-width: 6.5rem; vertical-align: bottom; line-height: 1.25; }
+table.journals thead th button {
+  all: unset; cursor: pointer; text-transform: inherit; letter-spacing: inherit;
+  font: inherit; color: inherit;
+}
+table.journals thead th button:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 2px; }
+table.journals thead th[aria-sort="ascending"] button::after  { content: " ↑"; color: var(--terracotta); }
+table.journals thead th[aria-sort="descending"] button::after { content: " ↓"; color: var(--terracotta); }
+table.journals td.chk a { text-decoration: none; }
+table.journals .area-col { white-space: nowrap; }
+table.journals th[scope="row"] { min-width: 14rem; }
+.score { font-family: var(--f-ui); font-variant-numeric: tabular-nums; }
+.score strong { font-size: var(--text-base); }
+.score-note { display: block; font-size: var(--text-xs); color: var(--dilute); }
+.score-none { color: var(--faience); font-size: var(--text-xs); }
+.jstatus {
+  font-family: var(--f-ui); font-size: var(--text-xs); text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--dilute); margin-left: 0.35rem;
+}
+.area-tag { display: block; font-size: var(--text-xs); color: var(--dilute); font-weight: 400; }
+table.totals { max-width: 46rem; }
+.totals-wrap { max-height: none; }
+
+/* -- Journal page */
+.crumb { font-family: var(--f-ui); font-size: var(--text-sm); margin-bottom: var(--space-3); }
+dl.facts {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: var(--space-3) var(--space-6); margin: var(--space-6) 0;
+  font-family: var(--f-ui); font-size: var(--text-sm);
+}
+dl.facts dt { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--dilute); }
+dl.facts dd { margin: 0.1rem 0 0; overflow-wrap: anywhere; }
+.xlinks { font-family: var(--f-ui); font-size: var(--text-sm); }
+.jnote { font-size: var(--text-sm); color: var(--dilute); }
+
+.area-summary {
+  display: flex; flex-wrap: wrap; gap: var(--space-4) var(--space-10);
+  list-style: none; padding: var(--space-4) 0; margin: 0;
+  border-top: 2px solid var(--gloss); border-bottom: 1px solid var(--rule);
+  font-family: var(--f-ui);
+}
+.area-name { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--dilute); margin-right: 0.4rem; }
+
+.check { border-top: 1px solid var(--rule); padding: var(--space-4) 0 var(--space-5); }
+.check-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-3); }
+.check-head h3.subheading { margin: 0; }
+.check-summary { max-width: var(--measure); margin: var(--space-2) 0; }
+details.evidence { font-family: var(--f-ui); font-size: var(--text-sm); }
+details.evidence > summary { cursor: pointer; color: var(--dilute); }
+details.evidence ol { padding-left: 1.2rem; }
+details.evidence li { margin: var(--space-3) 0; }
+.ev-url { overflow-wrap: anywhere; }
+.ev-status { color: var(--dilute); margin-left: 0.4rem; font-size: var(--text-xs); }
+.ev-note { margin: 0.2rem 0; }
+.ev-hash { font-size: var(--text-xs); color: var(--dilute); margin: 0.2rem 0 0; }
+pre.ev-excerpt {
+  background: var(--papyrus-deep); padding: var(--space-3); overflow-x: auto;
+  font-size: 0.75rem; line-height: 1.45; max-height: 22rem; white-space: pre-wrap;
+  overflow-wrap: anywhere; border-radius: var(--radius-sm);
+}
+.history { font-family: var(--f-ui); font-size: var(--text-xs); color: var(--dilute); }
+
+/* -- Methods */
+.key { list-style: none; padding: 0; }
+.key li { margin-bottom: var(--space-3); }
+.key .st { margin-right: 0.4rem; min-width: 5.2rem; }
+h3.area-head { font-family: var(--f-display); font-size: var(--text-xl); margin: var(--space-10) 0 var(--space-3); }
+.method { border-top: 1px solid var(--rule); padding-top: var(--space-4); margin-bottom: var(--space-6); }
+.method h4 { font-family: var(--f-ui); font-size: var(--text-base); margin: 0 0 var(--space-2); }
+.mlabel { font-family: var(--f-ui); font-weight: 700; font-size: var(--text-sm); }
+
+@media (max-width: 40rem) {
+  main.wide { padding-left: var(--space-4); padding-right: var(--space-4); }
+}

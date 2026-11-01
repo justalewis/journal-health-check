@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}About: {{ site_name }}{% endblock %}
+{% block content %}
+<section class="prose">
+  <h1 class="page-title">About this site</h1>
+  <p class="lede">Some journals in rhetoric and composition sit on publisher platforms where
+    archiving contracts and Crossref deposits are handled as routine. Many more are run by
+    volunteer editors on a domain one of them registered, a university server, or a hosting plan
+    somebody renews each year. When an editor steps down, or a renewal notice goes to an inbox
+    nobody reads, a journal can drop off the web without any record that it happened.</p>
+
+  <p>That loss is documented. Laakso, Matthias and Jahn counted 174 open-access journals that
+    vanished from the web between 2000 and 2019
+    (<a href="https://doi.org/10.1002/asi.24460">“Open Is Not Forever,” <em>JASIST</em>, 2021</a>).
+    In this field, Lockridge, Paz and Johnson described the work of preserving <em>Kairos</em>
+    webtexts in <a href="https://doi.org/10.1016/j.compcom.2017.09.002"><em>Computers and
+    Composition</em> (2017)</a>, and <em>Kairos</em> keeps a
+    <a href="https://kairos.technorhetoric.net/20.2/loggingon/stasis.html">Stasis archive</a> of
+    webtexts whose original hosts are gone.</p>
+
+  <p>The site also asks whether discovery services can find a journal and whether readers using
+    assistive technology can read it. Kumar and Wang tested 20,000
+    scholarly PDFs and found that 74.9 percent failed every accessibility check they ran
+    (<a href="https://arxiv.org/abs/2410.03022">ASSETS 2024</a>), and the Department of Justice's
+    rule under Title II of the ADA puts public universities' web content under WCAG 2.1 AA in April
+    2027 for large institutions and April 2028 for smaller ones. Many of this field's journals are
+    hosted by public universities.</p>
+
+  <p>So once a month I check each journal indexed in Pinakes against the public records that bear
+    on these questions: domain registration, the HTTPS certificate, archive holdings, web captures,
+    ISSN registration, DOAJ, OpenAlex and Crossref. The PDF and HTML accessibility checks come
+    next. Each journal's page shows the record behind every result. If a result looks wrong for a
+    journal you edit, that record is usually where the correction belongs, and the
+    <a href="{{ url_for('methods') }}">methods page</a> says what an editor can do about each check.</p>
+
+  <p>The site shares its design with <a href="{{ eunomia_url }}/">Eunomia's Labors</a>, and its
+    Crossref figures come from the same queries, so the two sites report the same numbers. Journals
+    that want DOIs or deposited reference lists can start there.</p>
+</section>
+{% endblock %}

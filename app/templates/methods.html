@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% from "_macros.html" import badge with context %}
+{% block title %}Methods: {{ site_name }}{% endblock %}
+{% block content %}
+<section class="prose">
+  <h1 class="page-title">Methods</h1>
+  <p class="lede">Each check asks one public source one question about a journal. The harvest runs
+    once a month, keeps every response it relied on, and publishes the results as a dated JSON
+    file{% if run %} (the latest is <a href="{{ url_for('latest_json') }}">{{ run.label }}</a>){% endif %}.</p>
+
+  <h2 class="heading">Reading the results</h2>
+  <p>Every check returns one of five results.</p>
+  <ul class="key">
+    <li>{{ badge("pass") }} The record exists and agrees with what we know about the journal.</li>
+    <li>{{ badge("warn") }} The record exists, but something in it is out of date, mismatched or
+      close to lapsing.</li>
+    <li>{{ badge("fail") }} The source has no record, or the record shows a lapse.</li>
+    <li>{{ badge("unknown") }} The source didn't answer, or we don't have the identifier (usually
+      an ISSN) needed to ask it.</li>
+    <li>{{ badge("na") }} The check doesn't apply: DOAJ for a subscription journal, or domain
+      expiry for a journal on a publisher's platform.</li>
+  </ul>
+  <p>I don't combine the checks into a single score. Each of the three areas shows how many of its
+    checks a journal met out of the checks that applied to it, and the journal's page shows the
+    response behind each result, with a fingerprint (SHA-256) of the full response so a result can
+    be matched to the exact record it came from.</p>
+  <p>A site that refuses automated requests, an API that times out, or a journal with no ISSN on
+    file gets “unknown,” because none of those says anything about the journal. Before a month's
+    results go up I check by hand for the errors a harvest is most likely to make: an ISSN that is
+    registered to some other serial, a journal that has moved while its old address still answers,
+    and a record that matched on title alone.</p>
+</section>
+
+{% set texts = {
+ "tls": {
+   "source": "A direct TLS handshake with the journal's web server on port 443, verified against Mozilla's root certificates.",
+   "rule": "Met when the certificate is valid for the host and has at least 14 days left. Check when it has fewer. Not met when the host has no HTTPS, doesn't resolve, or presents a certificate that fails validation. Most certificates now renew automatically every 60 to 90 days, so a short remaining life is normal.",
+   "fix": "A lapsed certificate is almost always a stalled automatic renewal. The hosting provider can turn renewal back on."},
+ "rdap": {
+   "source": "The domain's registration record through RDAP, the successor to WHOIS, via the rdap.org bootstrap service.",
+   "rule": "Met when the registration runs more than 90 days. Check under 90 days. Not met once it has expired. Journals on a publisher's platform or a university domain are n/a, since those domains don't lapse when an editor moves on.",
+   "fix": "Turn on auto-renewal, register for several years at once, and make sure more than one person can log in to the registrar."},
+ "keepers": {
+   "source": "The Keepers Registry holdings shown on each of the journal's ISSN records at portal.issn.org. Holdings usually sit on the online ISSN, so I read every ISSN the journal uses and pool the results. A record registered to a different title is skipped.",
+   "rule": "Met when at least one archiving agency reports content as preserved and, for an active journal, that coverage reaches within the last three years. Check when an agency lists the journal but nothing is marked preserved yet, or when preserved coverage stops more than three years back. Not met when no agency reports holding it.",
+   "fix": "OJS journals can join the PKP Preservation Network at no cost, and its holdings are reported to the Keepers Registry. Other journals can approach CLOCKSS, Portico or a national library's deposit program."},
+ "wayback": {
+   "source": "The Internet Archive's Wayback Machine (CDX API). I fetch the home page first and follow any redirect, so the capture counted is of the page readers land on.",
+   "rule": "Met when the latest successful capture is no more than 180 days old. Check up to two years. Not met beyond that, or when no successful capture exists. For a ceased journal any capture counts. This month's check covers the home page only; the latest issue's page is planned.",
+   "fix": "Anyone can request a capture at web.archive.org/save. A robots.txt file that blocks crawlers can keep the Archive out."},
+ "issn": {
+   "source": "Each ISSN's public record at portal.issn.org, after a local check-digit test.",
+   "rule": "Met when every ISSN the journal uses is registered to this journal and shares one ISSN-L. Check when a number is registered to a different title, the record is provisional, or the print and online records disagree. Not met when no ISSN resolves at all. Unknown when we have no ISSN on file, which may mean we haven't found it.",
+   "fix": "Journals published in the United States apply through the Library of Congress ISSN Center. Corrections to an existing record go to the national centre that holds it."},
+ "doaj": {
+   "source": "The Directory of Open Access Journals search API, by ISSN and then by title.",
+   "rule": "Met when DOAJ lists the journal under a matching title. Check when it doesn't, or when the journal's ISSN belongs to a different DOAJ record. Subscription journals are n/a.",
+   "fix": "Applying to DOAJ is free. The application asks for a licence statement, a peer-review policy and an archiving arrangement, so the preservation checks above feed into it."},
+ "openalex": {
+   "source": "OpenAlex's sources API, by ISSN; by title only when no ISSN is on file, and then the match is flagged as unconfirmed.",
+   "rule": "Met when the record's title matches, it has an ISSN-L, it holds works, and its open-access flag agrees with the journal's. Check when any of those disagrees. Not met when OpenAlex has no record.",
+   "fix": "OpenAlex builds its source records from Crossref and ISSN data, so fixing those usually fixes OpenAlex. It also takes correction requests through its support form."},
+ "crossref": {
+   "source": "The Crossref REST API, using the same two queries as Eunomia's Labors so the two sites always report the same figures: all works under the journal's ISSN, and those works filtered to has-references:true. The recent rate is Crossref's own coverage figure for the current and two previous years.",
+   "rule": "Met when at least half of all DOI records carry a reference list, or four in five of the recent ones do. Check below that. Check also when the DOIs were deposited without an ISSN, since services that search by ISSN can't find them. Not met when no DOIs are registered under the journal's ISSNs.",
+   "fix": "Eunomia's Labors registers DOIs and deposits reference lists for journals in the field, back issues included."},
+} %}
+
+<section class="prose">
+  <h2 class="heading">The checks</h2>
+  {% for a in AREAS %}
+  <h3 class="area-head">{{ AREA_LABEL[a] }}</h3>
+  {% for m in active if m.AREA == a %}
+  {% set t = texts[m.NAME] %}
+  <div class="method" id="{{ m.NAME }}">
+    <h4>{{ m.LABEL }}</h4>
+    <p><span class="mlabel">Source.</span> {{ t.source }}</p>
+    <p><span class="mlabel">Result.</span> {{ t.rule }}</p>
+    <p><span class="mlabel">What an editor can do.</span>
+      {% if m.NAME == "crossref" %}<a href="{{ eunomia_url }}/">Eunomia's Labors</a> registers DOIs and deposits reference lists for journals in the field, back issues included.{% else %}{{ t.fix }}{% endif %}</p>
+  </div>
+  {% endfor %}
+  {% endfor %}
+</section>
+
+<section class="prose">
+  <h2 class="heading">Planned checks</h2>
+  <p>These are written as stubs and don't run yet.</p>
+  <ul>
+    {% for m in planned %}
+    <li><strong>{{ m.LABEL }}</strong> ({{ AREA_LABEL[m.AREA] | lower }}, phase {{ m.PHASE }})</li>
+    {% endfor %}
+  </ul>
+  <p>The PDF and HTML checks will run veraPDF and axe-core against each journal's latest issue.
+    The succession check will show only whether an editor has filed a plan, and only if the
+    editor agrees to show it; the plan itself stays private.</p>
+</section>
+{% endblock %}

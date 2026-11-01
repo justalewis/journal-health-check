@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% from "_macros.html" import badge, area_cell with context %}
+{% block title %}{{ j.short or j.name }}: {{ site_name }}{% endblock %}
+{% block description %}Continuity, preservation and access results for {{ j.name }}, {{ run.label if run else "" }}.{% endblock %}
+{% block content %}
+<section class="prose jhead">
+  <p class="crumb"><a href="{{ url_for('index') }}">All journals</a></p>
+  <h1 class="page-title"><em>{{ j.name }}</em></h1>
+  <dl class="facts">
+    {% if j.publisher %}<div><dt>Publisher</dt><dd>{{ j.publisher }}</dd></div>{% endif %}
+    {% if j.host_institution %}<div><dt>Host</dt><dd>{{ j.host_institution }}</dd></div>{% endif %}
+    <div><dt>ISSN</dt><dd>{% if j.issn_print %}{{ j.issn_print }} (print){% endif %}{% if j.issn_print and j.issn_online %}, {% endif %}{% if j.issn_online %}{{ j.issn_online }} (online){% endif %}{% if not (j.issn_print or j.issn_online) %}none on file{% endif %}</dd></div>
+    {% if j.oa %}<div><dt>Access</dt><dd>{{ {"gold": "Open access", "bronze": "Free to read after a moving wall", "hybrid": "Subscription, with some open articles", "subscription": "Subscription"}[j.oa] }}</dd></div>{% endif %}
+    <div><dt>Status</dt><dd>{{ j.status | capitalize }}{% if j.end_year %} ({{ j.end_year }}){% endif %}</dd></div>
+    {% if j.home_url %}<div><dt>Home page</dt><dd><a href="{{ j.home_url }}">{{ j.home_url | replace("https://", "") | replace("http://", "") | truncate(48, true, "…") }}</a></dd></div>{% endif %}
+  </dl>
+  <p class="xlinks">
+    {% if j.in_pinakes %}<a href="{{ j.name | pinakes_link }}">Its articles in Pinakes</a>{% endif %}
+    {% if checks.crossref and checks.crossref.value and checks.crossref.value.dois %} · <a href="{{ eunomia_url }}/">Crossref coverage on Eunomia's Labors</a>{% endif %}
+  </p>
+  {% if j.notes %}<p class="jnote">{{ j.notes }}</p>{% endif %}
+</section>
+
+{% if not checks %}
+<section class="prose"><p>This journal hasn't been through a harvest yet.</p></section>
+{% else %}
+<section>
+  <ul class="area-summary">
+    {% for a in AREAS %}
+    <li><span class="area-name">{{ AREA_LABEL[a] }}</span> {{ area_cell(areas[a]) }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% for a in AREAS %}
+<section class="area" aria-labelledby="area-{{ a }}">
+  <h2 class="heading" id="area-{{ a }}">{{ AREA_LABEL[a] }}</h2>
+  {% for m in CHECKS_BY_AREA[a] %}
+  {% set c = checks.get(m.NAME) %}
+  {% if c %}
+  <article class="check" id="{{ m.NAME }}">
+    <header class="check-head">
+      <h3 class="subheading">{{ m.LABEL }}</h3>
+      {{ badge(c.status) }}
+    </header>
+    <p class="check-summary">{{ c.summary }}</p>
+    {% if c.evidence %}
+    <details class="evidence">
+      <summary>Evidence ({{ c.evidence | length }} source{{ "s" if c.evidence | length != 1 }}), checked {{ c.checked_at | fmt_date }}</summary>
+      <ol>
+      {% for e in c.evidence %}
+        <li>
+          {% if e.url and e.url.startswith("http") %}<a href="{{ e.url }}" class="ev-url">{{ e.url | truncate(110, true, "…") }}</a>{% elif e.url %}<code>{{ e.url }}</code>{% endif %}
+          {% if e.http_status %}<span class="ev-status">HTTP {{ e.http_status }}</span>{% endif %}
+          {% if e.note %}<p class="ev-note">{{ e.note }}</p>{% endif %}
+          {% if e.excerpt %}<pre class="ev-excerpt">{{ e.excerpt | pretty | truncate(2400, true, "\n…") }}</pre>{% endif %}
+          {% if e.sha256 %}<p class="ev-hash">Response SHA-256 <code>{{ e.sha256[:16] }}…</code></p>{% endif %}
+        </li>
+      {% endfor %}
+      </ol>
+    </details>
+    {% endif %}
+    {% set h = hist.get(m.NAME, []) %}
+    {% if h | length > 1 %}
+    <p class="history">History: {% for x in h %}<span title="{{ x.summary }}">{{ x.label }} {{ badge(x.status, compact=true) }}</span>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+    {% endif %}
+  </article>
+  {% endif %}
+  {% endfor %}
+</section>
+{% endfor %}
+{% endif %}
+{% endblock %}

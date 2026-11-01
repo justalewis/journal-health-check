@@ -1,0 +1,14 @@
+[project]
+name = "journal-health-check"
+version = "0.1.0"
+description = "Monthly continuity, preservation and access checks for Rhet/Comp journals"
+requires-python = ">=3.11"
+
+[project.scripts]
+jhc = "jhc.cli:main"
+
+[tool.setuptools]
+packages = ["jhc", "jhc.checks", "app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

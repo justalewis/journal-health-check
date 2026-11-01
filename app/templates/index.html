@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% from "_macros.html" import badge, area_cell with context %}
+{% block main_class %} class="wide"{% endblock %}
+{% block content %}
+<section class="hero prose">
+  <h1>A monthly check on the field's journals</h1>
+  <p class="lede">Each month I check every journal indexed in Pinakes against public records:
+    whether its domain and HTTPS certificate are current, whether an archive holds a copy of it,
+    and whether the registries that libraries and search engines read can find it. The table has
+    one row per journal, and each journal's page shows the record behind every result.</p>
+  <p>The results describe infrastructure, not scholarship. For each check, the
+    <a href="{{ url_for('methods') }}">methods page</a> says where the data comes from and what an
+    editor can do about a result.</p>
+  {% if preview %}
+  <div class="notice" role="note"><p>These are results from the first harvest, which I'm still
+    checking by hand. Treat any single mark as provisional until this note comes down.</p></div>
+  {% endif %}
+</section>
+
+{% if not run %}
+<section class="prose"><p>No harvest has been loaded yet.</p></section>
+{% else %}
+<section>
+  <h2 class="heading">Across the field</h2>
+  {% set t = totals %}
+  {% set n_open = rows | selectattr("j.oa", "in", ["gold", "bronze"]) | list | length %}
+  <ul class="stats">
+    <li><span class="num">{{ n_journals }}</span><span class="label">journals checked, {{ run.label }}</span></li>
+    <li><span class="num">{{ t.keepers.fail }}</span><span class="label">with no archiving agency reporting a copy</span></li>
+    <li><span class="num">{{ t.crossref.fail }}</span><span class="label">with no DOIs registered in Crossref</span></li>
+    <li><span class="num">{{ t.doaj.pass }} of {{ n_open }}</span><span class="label">open-access journals listed in DOAJ</span></li>
+    <li><span class="num">{{ t.openalex.fail }}</span><span class="label">with no OpenAlex record</span></li>
+  </ul>
+
+  <div class="table-wrap totals-wrap" tabindex="0" role="region" aria-label="Results by check, scrollable">
+  <table class="coverage totals">
+    <caption>How many journals met each check in {{ run.label }}. A dash means the check didn't
+      apply, as with DOAJ for a subscription journal.</caption>
+    <thead><tr>
+      <th scope="col">Check</th>
+      {% for s in ["pass", "warn", "fail", "unknown", "na"] %}<th scope="col" class="num">{{ badge(s) }}</th>{% endfor %}
+    </tr></thead>
+    <tbody>
+    {% for m in checks %}
+      <tr>
+        <th scope="row">{{ m.LABEL }} <span class="area-tag">{{ AREA_LABEL[m.AREA] }}</span></th>
+        {% for s in ["pass", "warn", "fail", "unknown", "na"] %}<td class="num">{{ totals[m.NAME][s] or "" }}</td>{% endfor %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2 class="heading">Journals</h2>
+  <div class="table-tools">
+    <label for="journal-filter">Find a journal</label>
+    <input type="search" id="journal-filter" autocomplete="off" placeholder="Type a journal name">
+    <span id="result-count" role="status"></span>
+  </div>
+  <div class="table-wrap" tabindex="0" role="region" aria-label="Results by journal, scrollable">
+  <table class="coverage journals sortable" id="journal-table">
+    <caption>Each area shows how many of its checks the journal met, out of the checks that
+      applied. Select a column heading to sort.</caption>
+    <thead>
+      <tr>
+        <th scope="col" data-sort="text" aria-sort="ascending"><button type="button">Journal</button></th>
+        {% for a in AREAS %}
+        <th scope="col" data-sort="num" class="num area-col"><button type="button">{{ AREA_LABEL[a] }}</button></th>
+        {% endfor %}
+        {% for m in checks %}
+        <th scope="col" data-sort="num" class="chk"><button type="button" title="{{ m.LABEL }}">{{ m.LABEL }}</button></th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+    {% for r in rows %}
+      {% set j = r.j %}
+      <tr data-name="{{ (j.name ~ ' ' ~ (j.short or '')) | lower }}">
+        <th scope="row" data-value="{{ (j.short or j.name) | lower }}">
+          <a href="{{ url_for('journal', slug=j.slug) }}">{% if j.short %}{{ j.short }}{% else %}<em>{{ j.name }}</em>{% endif %}</a>
+          {% if j.status != "active" %}<span class="jstatus">{{ j.status }}</span>{% endif %}
+          {% if j.short %}<span class="pub">{{ j.name }}</span>{% endif %}
+        </th>
+        {% for a in AREAS %}
+        {% set s = r.areas[a] %}
+        <td class="num area-col" data-value="{{ '%.3f' % s.sort }}">{{ area_cell(s) }}</td>
+        {% endfor %}
+        {% for m in checks %}
+        {% set c = r.checks.get(m.NAME) %}
+        <td class="chk" data-value="{{ STATUS_RANK[c.status] if c else 9 }}">{% if c %}<a href="{{ url_for('journal', slug=j.slug) }}#{{ m.NAME }}" title="{{ c.summary }}">{{ badge(c.status, compact=true) }}</a>{% endif %}</td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <p id="no-results" hidden>No journal matches that name.</p>
+  <p class="table-note">Key: {{ badge("pass") }} {{ badge("warn") }} {{ badge("fail") }}
+    {{ badge("unknown") }} {{ badge("na") }}. “Check” means the record exists but something in it
+    is worth a look. “Unknown” means the source didn't answer or we lack the identifier to ask it.</p>
+</section>
+{% endif %}
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='table.js') }}?v={{ version }}" defer></script>{% endblock %}

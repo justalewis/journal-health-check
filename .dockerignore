@@ -1,0 +1,10 @@
+.git
+.cache
+.venv
+__pycache__
+*.db
+*.tmp
+tests
+.github
+.pytest_cache
+BUILD_PLAN.md

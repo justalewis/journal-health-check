@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jhc",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "flask", "--app", "wsgi:app", "run", "--port", "5055"],
+      "port": 5055
+    }
+  ]
+}

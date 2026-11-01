@@ -1,0 +1,563 @@
+# Journals checked by Journal Health Check.
+#
+# Seeded on 2026-11-01 from Pinakes (Rhet-Comp-Index/journals.py): every
+# journal in CROSSREF_, RSS_, SCRAPE_, MANUAL_ and UNAVAILABLE_JOURNALS, with
+# the Pinakes display name kept as `name` so slugs and cross-links match.
+# scripts/sync_journals.py adds new Pinakes titles without touching the
+# fields below, which are curated here by hand:
+#
+#   issn_print / issn_online  verified against portal.issn.org on 2026-11-01
+#                             (Crossref's issn-type for Crossref titles; the
+#                             journal's own site for the rest)
+#   crossref_issn             the ISSN Pinakes found Crossref indexes DOIs under
+#   home_url                  the journal's own front page where it has one
+#   platform                  ojs | wordpress | drupal | digital-commons |
+#                             squarespace | bespoke | publisher | none
+#   oa                        gold | bronze | hybrid | subscription
+#   status                    active | dormant | ceased | unavailable
+#   issn_note                 why an ISSN is missing or odd
+#
+# A blank field means "not known yet", never "doesn't exist".
+
+journals:
+
+# ── Composition & Writing Studies ─────────────────────────────────────────
+- name: College Composition and Communication
+  short: CCC
+  issn_print: 0010-096X
+  issn_online: 1939-9006
+  home_url: https://publicationsncte.org/content/journals/ccc
+  platform: publisher
+  publisher: National Council of Teachers of English
+  oa: subscription
+  group: Composition & Writing Studies
+
+- name: College English
+  issn_print: 0010-0994
+  issn_online: 2161-8178
+  home_url: https://publicationsncte.org/content/journals/ce
+  platform: publisher
+  publisher: National Council of Teachers of English
+  oa: subscription
+  group: Composition & Writing Studies
+
+- name: Composition Studies
+  issn_print: 1534-9322
+  home_url: https://compstudiesjournal.com/
+  platform: wordpress
+  oa: gold
+  group: Composition & Writing Studies
+  notes: Not in Crossref (Pinakes, 2026).
+
+- name: Composition Forum
+  issn_print: 1522-7502
+  issn_note: >-
+    The journal's site shows ISSN 1522-7502, but the ISSN Portal registers
+    that number to Forum, the CCCC non-tenure-track newsletter.
+  home_url: https://compositionforum.com/
+  platform: bespoke
+  publisher: Association of Teachers of Advanced Composition
+  oa: gold
+  group: Composition & Writing Studies
+  notes: Blocks bot user agents (Pinakes scraper note).
+
+- name: Research in the Teaching of English
+  short: RTE
+  issn_print: 0034-527X
+  issn_online: 1943-2348
+  home_url: https://publicationsncte.org/content/journals/rte
+  platform: publisher
+  publisher: National Council of Teachers of English
+  oa: subscription
+  group: Composition & Writing Studies
+
+- name: Pedagogy
+  alt_titles: ["Pedagogy: Critical Approaches to Teaching Literature, Language, Composition, and Culture"]
+  issn_print: 1531-4200
+  issn_online: 1533-6255
+  home_url: https://read.dukeupress.edu/pedagogy
+  platform: publisher
+  publisher: Duke University Press
+  oa: subscription
+  group: Composition & Writing Studies
+
+- name: Teaching English in the Two-Year College
+  short: TETYC
+  issn_print: 0098-6291
+  issn_online: 1943-2356
+  home_url: https://publicationsncte.org/content/journals/tetyc
+  platform: publisher
+  publisher: National Council of Teachers of English
+  oa: subscription
+  group: Composition & Writing Studies
+
+- name: Assessing Writing
+  issn_print: 1075-2935
+  home_url: https://www.sciencedirect.com/journal/assessing-writing
+  platform: publisher
+  publisher: Elsevier
+  oa: hybrid
+  group: Composition & Writing Studies
+
+- name: Journal of Writing Research
+  issn_print: 2030-1006
+  issn_online: 2294-3307
+  home_url: https://www.jowr.org/
+  publisher: EARLI SIG Writing
+  oa: gold
+  group: Composition & Writing Studies
+
+- name: Journal of Academic Writing
+  issn_online: 2225-8973
+  home_url: https://publications.coventry.ac.uk/index.php/joaw
+  platform: ojs
+  publisher: EATAW / Coventry University
+  oa: gold
+  group: Composition & Writing Studies
+
+- name: Writing and Pedagogy
+  issn_print: 1756-5839
+  issn_online: 1756-5847
+  home_url: https://utppublishing.com/loi/wap
+  platform: publisher
+  publisher: University of Toronto Press
+  oa: subscription
+  group: Composition & Writing Studies
+
+- name: Journal of Writing Analytics
+  issn_online: 2474-7491
+  home_url: https://wacclearinghouse.org/jwa/
+  platform: bespoke
+  publisher: The WAC Clearinghouse
+  oa: gold
+  group: Composition & Writing Studies
+
+- name: "Prompt: A Journal of Academic Writing Assignments"
+  issn_online: 2476-0943
+  home_url: https://thepromptjournal.com/
+  platform: ojs
+  oa: gold
+  group: Composition & Writing Studies
+
+- name: Writing on the Edge
+  short: WOE
+  issn_print: 1064-6051
+  home_url: https://woejournal.ucdavis.edu/
+  platform: drupal
+  host_institution: University of California, Davis
+  oa: subscription
+  group: Composition & Writing Studies
+
+- name: Literacy in Composition Studies
+  short: LiCS
+  issn_online: 2326-5620
+  home_url: https://licsjournal.org/
+  platform: ojs
+  oa: gold
+  group: Composition & Writing Studies
+
+- name: Basic Writing e-Journal
+  short: BWe
+  issn_online: 2164-5116
+  home_url: https://bwe.ccny.cuny.edu/
+  platform: bespoke
+  host_institution: City College of New York, CUNY
+  oa: gold
+  status: dormant
+  group: Composition & Writing Studies
+  notes: Largely dormant since vol. 16.1 (2020), per Pinakes.
+
+- name: "Open Words: Access and English Studies"
+  issn_online: 2690-392X
+  home_url: https://wacclearinghouse.org/openwords/
+  platform: bespoke
+  publisher: The WAC Clearinghouse
+  oa: gold
+  group: Composition & Writing Studies
+
+- name: Journal of Response to Writing
+  issn_online: 2575-9809
+  home_url: https://scholarsarchive.byu.edu/journalrw/
+  platform: digital-commons
+  host_institution: Brigham Young University
+  oa: gold
+  group: Composition & Writing Studies
+  notes: No DOIs deposited, per Pinakes.
+
+- name: "WPA: Writing Program Administration"
+  short: WPA
+  issn_print: 0196-4682
+  home_url: https://wpacouncil.org/aws/CWPA/pt/sp/journal-archives
+  platform: bespoke
+  publisher: Council of Writing Program Administrators
+  oa: bronze
+  group: Composition & Writing Studies
+  notes: One-year moving wall; older PDFs free.
+
+# ── Rhetoric ──────────────────────────────────────────────────────────────
+- name: Rhetoric Society Quarterly
+  short: RSQ
+  issn_print: 0277-3945
+  issn_online: 1930-322X
+  home_url: https://www.tandfonline.com/journals/rrsq20
+  platform: publisher
+  publisher: Taylor & Francis
+  oa: subscription
+  group: Rhetoric
+
+- name: Rhetoric Review
+  issn_print: 0735-0198
+  issn_online: 1532-7981
+  home_url: https://www.tandfonline.com/journals/hrhr20
+  platform: publisher
+  publisher: Taylor & Francis
+  oa: subscription
+  group: Rhetoric
+
+- name: Philosophy & Rhetoric
+  issn_print: 0031-8213
+  issn_online: 1527-2079
+  home_url: https://scholarlypublishingcollective.org/psup/philosophy-rhetoric
+  platform: publisher
+  publisher: Penn State University Press
+  oa: subscription
+  group: Rhetoric
+
+- name: Rhetoric & Public Affairs
+  issn_print: 1094-8392
+  issn_online: 1534-5238
+  home_url: https://msupress.org/journals/rhetoric-public-affairs/
+  platform: publisher
+  publisher: Michigan State University Press
+  oa: subscription
+  group: Rhetoric
+
+- name: Poroi
+  issn_online: 2151-2957
+  home_url: https://pubs.lib.uiowa.edu/poroi/
+  host_institution: University of Iowa
+  oa: gold
+  group: Rhetoric
+
+- name: Advances in the History of Rhetoric
+  issn_print: 1536-2426
+  issn_online: 1936-0835
+  home_url: https://www.tandfonline.com/journals/uahr20
+  platform: publisher
+  publisher: Taylor & Francis
+  oa: subscription
+  status: ceased
+  end_year: 2019
+  group: Rhetoric
+
+- name: Rhetorica
+  issn_print: 0734-8584
+  issn_online: 1533-8541
+  home_url: https://online.ucpress.edu/rhetorica
+  platform: publisher
+  publisher: University of California Press
+  oa: subscription
+  group: Rhetoric
+
+- name: Res Rhetorica
+  issn_online: 2392-3113
+  home_url: https://resrhetorica.com/
+  platform: ojs
+  publisher: Polish Rhetoric Society
+  oa: gold
+  group: Rhetoric
+
+- name: Argumentation
+  issn_print: 0920-427X
+  issn_online: 1572-8374
+  home_url: https://link.springer.com/journal/10503
+  platform: publisher
+  publisher: Springer
+  oa: hybrid
+  group: Rhetoric
+
+- name: Pre/Text
+  alt_titles: ["Pre/Text: A Journal of Rhetorical Theory"]
+  issn_print: 0731-0714
+  platform: none
+  oa: subscription
+  status: ceased
+  start_year: 1980
+  end_year: 2016
+  group: Rhetoric
+  notes: Print only; never digitized or assigned DOIs.
+
+- name: "JAC: A Journal of Rhetoric, Culture, and Politics"
+  short: JAC
+  alt_titles: ["Journal of Advanced Composition", "JAC"]
+  issn_print: 0731-6755
+  home_url: http://www.jaconlinejournal.com/
+  oa: subscription
+  status: ceased
+  start_year: 1980
+  end_year: 2014
+  group: Rhetoric
+  notes: >-
+    Ceased active publication around 2014. On 2026-11-01 the old domain
+    redirected to an unrelated site.
+
+- name: Peitho
+  issn_online: 2169-0774
+  home_url: https://cfshrc.org/peitho-journal/
+  platform: bespoke
+  publisher: Coalition of Feminist Scholars in the History of Rhetoric and Composition
+  oa: gold
+  group: Rhetoric
+  notes: Back issues and DOIs live at wacclearinghouse.org/peitho/.
+
+- name: "Present Tense: A Journal of Rhetoric in Society"
+  short: Present Tense
+  issn_note: No ISSN found on the journal's site or in OpenAlex (2026-11-01).
+  home_url: https://www.presenttensejournal.org/
+  platform: wordpress
+  oa: gold
+  group: Rhetoric
+
+- name: "KB Journal: The Journal of the Kenneth Burke Society"
+  short: KB Journal
+  issn_online: 1930-0026
+  home_url: https://kbjournal.org/
+  platform: drupal
+  publisher: Kenneth Burke Society
+  oa: gold
+  group: Rhetoric
+
+- name: Enculturation
+  issn_note: No ISSN found on the journal's site or in OpenAlex (2026-11-01).
+  home_url: https://enculturation.net/
+  platform: drupal
+  oa: gold
+  webtext: true
+  group: Rhetoric
+
+- name: Written Communication
+  issn_print: 0741-0883
+  issn_online: 1552-8472
+  home_url: https://journals.sagepub.com/home/wcx
+  platform: publisher
+  publisher: SAGE
+  oa: subscription
+  group: Rhetoric
+
+# ── Technical Communication ───────────────────────────────────────────────
+- name: Technical Communication Quarterly
+  short: TCQ
+  issn_print: 1057-2252
+  issn_online: 1542-7625
+  home_url: https://www.tandfonline.com/journals/htcq20
+  platform: publisher
+  publisher: Taylor & Francis
+  oa: subscription
+  group: Technical Communication
+
+- name: Journal of Business and Technical Communication
+  short: JBTC
+  issn_print: 1050-6519
+  issn_online: 1552-4574
+  home_url: https://journals.sagepub.com/home/jbt
+  platform: publisher
+  publisher: SAGE
+  oa: subscription
+  group: Technical Communication
+
+- name: Journal of Technical Writing and Communication
+  short: JTWC
+  issn_print: 0047-2816
+  issn_online: 1541-3780
+  home_url: https://journals.sagepub.com/home/jtw
+  platform: publisher
+  publisher: SAGE
+  oa: subscription
+  group: Technical Communication
+
+- name: IEEE Transactions on Professional Communication
+  issn_print: 0361-1434
+  issn_online: 1558-1500
+  crossref_issn: 0361-1434
+  home_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=47
+  platform: publisher
+  publisher: IEEE
+  oa: hybrid
+  group: Technical Communication
+
+- name: Communication Design Quarterly
+  short: CDQ
+  issn_online: 2166-1642
+  home_url: https://sigdoc.acm.org/cdq/
+  platform: publisher
+  publisher: ACM SIGDOC
+  oa: gold
+  group: Technical Communication
+
+- name: Communication Design Quarterly Review
+  issn_print: 2166-1200
+  home_url: https://sigdoc.acm.org/cdq/
+  platform: publisher
+  publisher: ACM SIGDOC
+  oa: gold
+  status: ceased
+  end_year: 2019
+  group: Technical Communication
+  notes: Predecessor title of CDQ, per Pinakes.
+
+- name: Business and Professional Communication Quarterly
+  short: BPCQ
+  issn_print: 2329-4906
+  issn_online: 2329-4922
+  home_url: https://journals.sagepub.com/home/bcq
+  platform: publisher
+  publisher: SAGE
+  oa: subscription
+  group: Technical Communication
+
+- name: Double Helix
+  alt_titles: ["Double Helix: A Journal of Critical Thinking and Writing"]
+  issn_online: 2372-7497
+  home_url: https://qudoublehelixjournal.org/
+  publisher: The WAC Clearinghouse
+  host_institution: Quinnipiac University
+  oa: gold
+  group: Technical Communication
+  notes: Pinakes lists DOIs 2012–2024.
+
+- name: Rhetoric of Health and Medicine
+  short: RHM
+  issn_print: 2573-5055
+  issn_online: 2573-5063
+  home_url: https://journals.upress.ufl.edu/rhm
+  platform: publisher
+  publisher: University Press of Florida
+  oa: gold
+  group: Technical Communication
+
+# ── Writing Centers ───────────────────────────────────────────────────────
+- name: Writing Center Journal
+  short: WCJ
+  issn_print: 0889-6143
+  issn_online: 2832-9414
+  home_url: https://docs.lib.purdue.edu/wcj/
+  platform: digital-commons
+  host_institution: Purdue University
+  oa: gold
+  group: Writing Centers
+
+- name: "Praxis: A Writing Center Journal"
+  short: Praxis
+  issn_note: No ISSN found on the journal's site or in OpenAlex (2026-11-01).
+  home_url: https://www.praxisuwc.com/
+  platform: squarespace
+  host_institution: University of Texas at Austin
+  oa: gold
+  group: Writing Centers
+
+- name: Writing Lab Newsletter
+  short: WLN
+  alt_titles: ["WLN: A Journal of Writing Center Scholarship", "WLN"]
+  issn_print: 1040-3779
+  crossref_prefix: "10.37514"
+  crossref_container: "WLN: A Journal of Writing Center Scholarship"
+  home_url: https://wlnjournal.org/
+  publisher: The WAC Clearinghouse
+  oa: gold
+  group: Writing Centers
+  notes: >-
+    Writing Lab Newsletter (1975–2015) continues as WLN: A Journal of Writing
+    Center Scholarship, whose DOIs (10.37514/wln-j...) carry no ISSN.
+
+- name: The Peer Review
+  issn_note: No ISSN found on the journal's site (2026-11-01).
+  home_url: https://thepeerreview-iwca.org/
+  platform: wordpress
+  publisher: International Writing Centers Association
+  oa: gold
+  group: Writing Centers
+
+# ── WAC ───────────────────────────────────────────────────────────────────
+- name: Across the Disciplines
+  short: ATD
+  issn_online: 1554-8244
+  home_url: https://wacclearinghouse.org/atd/
+  platform: bespoke
+  publisher: The WAC Clearinghouse
+  oa: gold
+  group: WAC / Writing Across the Curriculum
+
+- name: The WAC Journal
+  issn_online: 1544-4929
+  home_url: https://wacclearinghouse.org/journal/
+  platform: bespoke
+  publisher: The WAC Clearinghouse
+  oa: gold
+  group: WAC / Writing Across the Curriculum
+
+# ── Digital & Multimodal ──────────────────────────────────────────────────
+- name: Computers and Composition
+  alt_titles: ["Computers & Composition"]
+  issn_print: 8755-4615
+  issn_online: 1873-2011
+  crossref_issn: 8755-4615
+  home_url: https://www.sciencedirect.com/journal/computers-and-composition
+  platform: publisher
+  publisher: Elsevier
+  oa: hybrid
+  group: Digital & Multimodal
+
+- name: "Kairos: A Journal of Rhetoric, Technology, and Pedagogy"
+  short: Kairos
+  issn_online: 1521-2300
+  home_url: https://kairos.technorhetoric.net/
+  platform: bespoke
+  oa: gold
+  webtext: true
+  start_year: 1996
+  group: Digital & Multimodal
+
+- name: Journal of Multimodal Rhetorics
+  short: JOMR
+  issn_online: 2472-7318
+  home_url: https://journalofmultimodalrhetorics.com/
+  platform: bespoke
+  oa: gold
+  webtext: true
+  start_year: 2017
+  group: Digital & Multimodal
+
+# ── Community Literacy ────────────────────────────────────────────────────
+- name: Community Literacy Journal
+  issn_print: 1555-9734
+  issn_online: 2162-6324
+  crossref_issn: 1555-9734
+  home_url: https://digitalcommons.fiu.edu/communityliteracy/
+  platform: digital-commons
+  host_institution: Florida International University
+  oa: gold
+  group: Community Literacy
+
+- name: "Reflections: A Journal of Community-Engaged Writing and Rhetoric"
+  short: Reflections
+  issn_online: 1541-2075
+  home_url: https://reflectionsjournal.net/
+  platform: wordpress
+  oa: gold
+  group: Community Literacy
+  notes: >-
+    Current issues are at journals.psu.edu/reflections (Penn State
+    Libraries); the DOIs resolve there.
+
+# ── Unavailable ───────────────────────────────────────────────────────────
+- name: "Rhetor: Journal of the Canadian Society for the Study of Rhetoric"
+  short: Rhetor
+  issn_note: No ISSN found (2026-11-01).
+  home_url: https://cssr-scer.ca/
+  oa: gold
+  status: unavailable
+  in_pinakes: false
+  group: Rhetoric
+  notes: >-
+    Pinakes reports the domain hijacked as of early 2025, redirecting to an
+    unrelated site. Journal status unknown.
