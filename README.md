@@ -44,4 +44,4 @@ Set `JHC_CONTACT_EMAIL` to put a contact address in the User-Agent and in Crossr
 
 `fly.toml` and the `Dockerfile` target the Fly app `journal-health-check`. The image builds `jhc.db` from `snapshots/` at build time, so it needs no volume. `.github/workflows/harvest.yml` runs the harvest on the 1st of each month and commits the snapshot. It deploys only when the repository variable `DEPLOY_ENABLED` is `true`.
 
-Nothing has been deployed, and no remote exists yet.
+First deployed to https://journal-health-check.fly.dev/ on 2026-11-01. No GitHub remote exists yet, so the workflow hasn't run.

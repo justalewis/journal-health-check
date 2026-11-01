@@ -1,11 +1,11 @@
-# Fly app for Journal Health Check. Not deployed yet: the first `fly deploy`
-# waits on Justin's go-ahead.
+# Fly app for Journal Health Check, first deployed 2026-11-01 (region sjc;
+# Fly no longer provisions new machines in sea).
 #
 # BASE_URL is the only place the public hostname appears. Moving to a custom
 # domain later is `fly certs add <domain>`, a DNS record, and a change here.
 
 app = "journal-health-check"
-primary_region = "sea"
+primary_region = "sjc"
 
 [build]
 
