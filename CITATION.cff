@@ -3,8 +3,13 @@ message: "If you use this software or its monthly snapshots, please cite it as b
 title: "Rhet-Comp Journal Accessibility Health Dashboard"
 type: software
 version: "0.1.0"
+doi: "10.5281/zenodo.23871480"
 date-released: "2026-11-01"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23871481"
+    description: "Version 0.1.0"
 repository-code: "https://github.com/justalewis/journal-health-check"
 url: "https://journal-health-check.fly.dev"
 abstract: "Monthly checks of rhetoric and composition journals for continuity (domain, HTTPS), preservation (Keepers Registry, Wayback Machine) and access (ISSN, DOAJ, OpenAlex, Crossref), with the evidence behind every result."

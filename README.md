@@ -1,5 +1,7 @@
 # Rhet-Comp Journal Accessibility Health Dashboard
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23871480.svg)](https://doi.org/10.5281/zenodo.23871480)
+
 A monthly report card for rhetoric and composition journals, covering three areas:
 
 - **continuity:** domain registration and the HTTPS certificate
@@ -45,3 +47,7 @@ Set `JHC_CONTACT_EMAIL` to put a contact address in the User-Agent and in Crossr
 `fly.toml` and the `Dockerfile` target the Fly app `journal-health-check`. The image builds `jhc.db` from `snapshots/` at build time, so it needs no volume. `.github/workflows/harvest.yml` runs the harvest on the 1st of each month and commits the snapshot. It deploys only when the repository variable `DEPLOY_ENABLED` is `true`.
 
 Live at https://journal-health-check.fly.dev/ since 2026-11-01; the workflow harvests and redeploys monthly.
+
+## Citing
+
+Cite the Zenodo record: Lewis, Justin. *Rhet-Comp Journal Accessibility Health Dashboard*. Software. https://doi.org/10.5281/zenodo.23871480 (all versions; v0.1.0 is https://doi.org/10.5281/zenodo.23871481). `CITATION.cff` has the same details.
