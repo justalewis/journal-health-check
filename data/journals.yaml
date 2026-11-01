@@ -93,6 +93,7 @@ journals:
 
 - name: Assessing Writing
   issn_print: 1075-2935
+  issn_online: 1873-5916
   home_url: https://www.sciencedirect.com/journal/assessing-writing
   platform: publisher
   publisher: Elsevier
@@ -292,6 +293,7 @@ journals:
   alt_titles: ["Journal of Advanced Composition", "JAC"]
   issn_print: 0731-6755
   home_url: http://www.jaconlinejournal.com/
+  site_lost: true
   oa: subscription
   status: ceased
   start_year: 1980
@@ -388,16 +390,14 @@ journals:
 - name: Communication Design Quarterly
   short: CDQ
   issn_online: 2166-1642
-  home_url: https://sigdoc.acm.org/cdq/
-  platform: publisher
+  home_url: https://cdq.sigdoc.org/
   publisher: ACM SIGDOC
   oa: gold
   group: Technical Communication
 
 - name: Communication Design Quarterly Review
   issn_print: 2166-1200
-  home_url: https://sigdoc.acm.org/cdq/
-  platform: publisher
+  home_url: https://cdq.sigdoc.org/
   publisher: ACM SIGDOC
   oa: gold
   status: ceased
@@ -541,19 +541,21 @@ journals:
 - name: "Reflections: A Journal of Community-Engaged Writing and Rhetoric"
   short: Reflections
   issn_online: 1541-2075
-  home_url: https://reflectionsjournal.net/
-  platform: wordpress
+  home_url: https://journals.psu.edu/reflections
+  platform: ojs
+  host_institution: Penn State University Libraries
   oa: gold
   group: Community Literacy
   notes: >-
-    Current issues are at journals.psu.edu/reflections (Penn State
-    Libraries); the DOIs resolve there.
+    The DOIs resolve to journals.psu.edu/reflections. The old domain,
+    reflectionsjournal.net, landed on a hosting-suspended page on 2026-11-01.
 
 # ── Unavailable ───────────────────────────────────────────────────────────
 - name: "Rhetor: Journal of the Canadian Society for the Study of Rhetoric"
   short: Rhetor
   issn_note: No ISSN found (2026-11-01).
   home_url: https://cssr-scer.ca/
+  site_lost: true
   oa: gold
   status: unavailable
   in_pinakes: false

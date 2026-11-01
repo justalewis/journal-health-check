@@ -45,6 +45,9 @@ class Journal:
     notes: str | None = None
     issn_note: str | None = None
     alt_titles: list[str] = field(default_factory=list)
+    # The journal's old domain still resolves but no longer serves the
+    # journal (hijacked, or redirected to an unrelated site).
+    site_lost: bool = False
 
     def __post_init__(self):
         if not self.slug:

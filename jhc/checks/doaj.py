@@ -64,9 +64,10 @@ def run(journal, http) -> CheckResult:
                                note="title search"))
             for h in hits:
                 ex = _excerpt(h)
+                # Title alone is too weak: "Praxis" matched Práxis Pedagógica.
+                # A title-search hit counts only when it points at our host.
                 same_host = journal.host and ex["url"] and journal.host.removeprefix("www.") in ex["url"]
-                if same_host or (titles_match(journal_titles(journal), ex["title"])
-                                 and not journal.issns):
+                if same_host:
                     found = h
                     break
         else:

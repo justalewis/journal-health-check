@@ -19,9 +19,12 @@ main.wide > section.prose { max-width: 46rem; }
 .st-unknown { background: var(--neutral-bg); color: var(--neutral-fg); }
 .st-na      { background: var(--faience-wash); color: var(--faience); font-weight: 400; }
 
-/* -- The journal table */
+/* -- The journal table. position:relative keeps the absolutely positioned
+      .vh labels inside the scroll box, or they widen the page on phones. */
+.table-wrap { position: relative; }
 table.journals th.chk, table.journals td.chk { text-align: center; padding-left: 0.3rem; padding-right: 0.3rem; }
-table.journals thead th.chk { white-space: normal; max-width: 6.5rem; vertical-align: bottom; line-height: 1.25; }
+table.journals thead th.chk { vertical-align: bottom; }
+table.journals thead th abbr { text-decoration: none; }
 table.journals thead th button {
   all: unset; cursor: pointer; text-transform: inherit; letter-spacing: inherit;
   font: inherit; color: inherit;

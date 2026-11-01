@@ -146,6 +146,12 @@ def parse_portal_record(h: str, issn: str) -> dict | None:
     body = text[start:] if start >= 0 else text
     rs = re.search(r"\b(Confirmed|Provisional|Legacy|Register|Suppressed|Cancelled|Unreported|Validated)\s+record", body)
     rec["record_status"] = rs.group(1) if rs else None
+    # Two states with no title at all: a suppressed ISSN ("never published or
+    # not a continuing resource") and one never reported to the register.
+    if "Suppressed ISSN" in body:
+        rec["record_status"] = "Suppressed"
+    elif "Unassigned or unreported ISSN" in body:
+        rec["record_status"] = "Unreported"
     label_alt = "|".join(re.escape(x) for x in _LABELS + ["Titles", "Identifiers", "Copy permalink",
                                                           "Title variant", "Title variants", "Online",
                                                           "Search in", "Record Last modified", "Type",

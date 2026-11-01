@@ -329,3 +329,53 @@ def test_tls_uses_mozilla_roots(monkeypatch):
                         lambda *a, **k: (_ for _ in ()).throw(TimeoutError()))
     tls.handshake("example.org")
     assert seen.get("cafile") == certifi.where()
+
+
+# -- Regressions from the first harvest (2026-11) -------------------------------
+
+def test_issn_suppressed_record_warns():
+    j = Journal(name="Communication Design Quarterly Review", issn_print="2166-1200")
+    page = ('<title>ISSN 2166-1200 - </title><div>Displaying basic data</div>'
+            '<div>Suppressed ISSN No data available</div>')
+    r = issn.run(j, FakeHttp({PORTAL + "2166-1200": (200, page)}))
+    assert r.status == "warn" and "suppressed" in r.summary
+
+
+def test_keepers_print_only_is_unknown():
+    j = Journal(name="Composition Studies", issn_print="1534-9322", oa="gold",
+                home_url="https://compstudiesjournal.com/")
+    page = portal_page("1534-9322", "Composition studies", keepers=[])
+    assert keepers.run(j, FakeHttp({PORTAL + "1534-9322": (200, page)})).status == "unknown"
+
+
+def test_crossref_prefers_issn_with_more_dois():
+    j = Journal(name="College Composition and Communication", issn_print="0010-096X",
+                issn_online="1939-9006")
+    routes = _cr_routes("0010-096X", "College Composition and Communication", 6945, 231)
+    routes.update(_cr_routes("1939-9006", "College Composition and Communication", 4031, 231))
+    r = crossref.run(j, FakeHttp(routes))
+    assert r.value["issn"] == "0010-096X" and r.value["dois"] == 6945
+
+
+def test_crossref_no_issn_is_unknown_not_unreachable():
+    r = crossref.run(Journal(name="Enculturation", oa="gold"), FakeHttp({}))
+    assert r.status == "unknown" and "No ISSN" in r.summary
+
+
+def test_wayback_publisher_is_na():
+    j = Journal(name="College English", home_url="https://publicationsncte.org/x", platform="publisher")
+    assert wayback.run(j, FakeHttp({})).status == "na"
+
+
+def test_doaj_title_only_hit_needs_same_host():
+    j = Journal(name="Praxis: A Writing Center Journal", oa="gold", home_url="https://www.praxisuwc.com/")
+    http = FakeHttp({"https://doaj.org/api/search/journals/*": (200, {"total": 1, "results": [
+        _doaj_rec("Práxis Pedagógica", "1234-5678", "https://revistas.example.br/")]})})
+    assert doaj.run(j, http).status == "warn"
+
+
+def test_lost_site_domain_warns_and_tls_na():
+    j = Journal(name="Rhetor", home_url="https://cssr-scer.ca/", site_lost=True, status="unavailable")
+    r = rdap.run(j, FakeHttp({"https://rdap.org/domain/cssr-scer.ca": (200, _rdap("2027-11-15T00:00:00Z"))}), now=NOW)
+    assert r.status == "warn" and "no longer serves" in r.summary
+    assert tls.run(j, now=NOW, shake=_shake(60)).status == "na"

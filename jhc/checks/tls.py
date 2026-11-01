@@ -59,6 +59,10 @@ def run(journal, http=None, now: datetime | None = None, shake=handshake) -> Che
     host = journal.host
     if not host:
         return CheckResult(NAME, AREA, NA, "No web presence.")
+    if journal.site_lost:
+        return CheckResult(NAME, AREA, NA,
+                           f"{host} no longer serves the journal, so its certificate says nothing about it.",
+                           value={"host": host})
     now = now or datetime.now(timezone.utc)
     res = shake(host)
     ev_url = f"tls://{host}:443"

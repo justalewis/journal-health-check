@@ -45,18 +45,25 @@ def run(journal, http) -> CheckResult:
         break
 
     by_title = False
-    if src is None:
-        r, data = http.get_json(API, params={"search": journal.name.split(":")[0], "per_page": 5})
-        if data is not None:
-            reached = True
-            hits = data.get("results", [])
-            ev.append(evidence(r, excerpt=[_excerpt(h) for h in hits], note="title search"))
-            for h in hits:
-                if titles_match(journal_titles(journal), h.get("display_name")):
-                    src, by_title = h, True
-                    break
-        else:
+    queries = []
+    for t in journal_titles(journal):
+        q = t.split(":")[0].strip()
+        if q and q not in queries:
+            queries.append(q)
+    for q in queries if src is None else []:
+        r, data = http.get_json(API, params={"search": q, "per_page": 5})
+        if data is None:
             ev.append(evidence(r, note=r.error or "OpenAlex did not answer"))
+            continue
+        reached = True
+        hits = data.get("results", [])
+        ev.append(evidence(r, excerpt=[_excerpt(h) for h in hits], note=f"title search: {q}"))
+        for h in hits:
+            if titles_match(journal_titles(journal), h.get("display_name")):
+                src, by_title = h, True
+                break
+        if src is not None:
+            break
 
     if not reached:
         return CheckResult(NAME, AREA, UNKNOWN, "OpenAlex could not be reached.", evidence=ev)
@@ -65,11 +72,14 @@ def run(journal, http) -> CheckResult:
                            value=None, evidence=ev)
 
     ex = _excerpt(src)
-    problems = []
     if by_title and not _host_matches(journal, src):
-        problems.append(f"the only candidate (“{ex['display_name']}”, {ex['works_count']} works) "
-                        "was found by title and can't be confirmed as this journal")
-    elif not titles_match(journal_titles(journal), ex["display_name"]):
+        return CheckResult(NAME, AREA, WARN,
+                           ("No OpenAlex record under its ISSN. " if journal.issns else
+                            "No ISSN to look it up by. ") + "The closest record by title "
+                           f"(“{ex['display_name']}”, {ex.get('works_count') or 0:,} works) can't be "
+                           "confirmed as this journal.", value=ex, evidence=ev)
+    problems = []
+    if not titles_match(journal_titles(journal), ex["display_name"]):
         problems.append(f"the ISSN resolves to “{ex['display_name']}”, which doesn't look like this journal")
     if not ex.get("issn_l"):
         problems.append("the record has no ISSN-L")

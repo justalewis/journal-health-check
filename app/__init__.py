@@ -21,6 +21,8 @@ START = time.time()
 STATUS_LABEL = {"pass": "Met", "warn": "Check", "fail": "Not met", "unknown": "Unknown", "na": "n/a"}
 STATUS_ICON = {"pass": "✓", "warn": "!", "fail": "✕", "unknown": "?", "na": "–"}
 AREA_LABEL = {"continuity": "Continuity", "preservation": "Preservation", "access": "Access"}
+CHECK_SHORT = {"tls": "HTTPS", "rdap": "Domain", "keepers": "Keepers", "wayback": "Wayback",
+               "issn": "ISSN", "doaj": "DOAJ", "openalex": "OpenAlex", "crossref": "Crossref"}
 STATUS_RANK = {"fail": 0, "warn": 1, "unknown": 2, "pass": 3, "na": 4}
 
 
@@ -57,6 +59,7 @@ def create_app() -> Flask:
             "base_url": config.BASE_URL, "canonical": config.BASE_URL + request.path,
             "eunomia_url": config.EUNOMIA_URL, "pinakes_url": config.PINAKES_URL,
             "STATUS_LABEL": STATUS_LABEL, "STATUS_ICON": STATUS_ICON, "AREA_LABEL": AREA_LABEL,
+            "CHECK_SHORT": CHECK_SHORT,
             "AREAS": AREAS, "CHECKS_BY_AREA": report.CHECKS_BY_AREA, "version": version,
             "nav": request.endpoint,
             # Shown on the index until the first harvest has been reviewed by hand.

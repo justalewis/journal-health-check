@@ -59,6 +59,7 @@ def run(journal, http) -> CheckResult:
     order = [i for i in order if issn_checksum_ok(i)]
 
     meta, used = None, None
+    candidates = []
     reached = False
     for issn in order:
         mailto = {"mailto": config.CONTACT_EMAIL} if config.CONTACT_EMAIL else None
@@ -81,14 +82,22 @@ def run(journal, http) -> CheckResult:
             ev[-1].note = f"skipped: Crossref files {issn} under “{m.get('title')}”"
             continue
         if (m.get("counts") or {}).get("total-dois"):
-            meta, used = m, issn
-            break
+            candidates.append((issn, m))
         meta = meta or m
+
+    # Both ISSNs often share one journal record, but /works by ISSN can still
+    # return different subsets (CCC: 6,945 works under the print ISSN, 4,031
+    # under the online one). Count under each and keep the larger, which is
+    # also the ISSN Pinakes and Eunomia's Labors use.
+    total = None
+    for issn, m in candidates:
+        r, n = _total(http, f"{API}/journals/{issn}/works")
+        ev.append(evidence(r, excerpt={"total-results": n}))
+        if n is not None and (total is None or n > total):
+            used, meta, total = issn, m, n
 
     if used:
         works = f"{API}/journals/{used}/works"
-        r, total = _total(http, works)
-        ev.append(evidence(r, excerpt={"total-results": total}))
         r2, refs = _total(http, works, {"filter": "has-references:true"})
         ev.append(evidence(r2, excerpt={"total-results": refs}, note="filter=has-references:true"))
         if total is None or refs is None:
@@ -104,6 +113,9 @@ def run(journal, http) -> CheckResult:
     else:
         total, refs, current, current_dois = 0, 0, None, 0
 
+    if not order and not journal.crossref_prefix:
+        return CheckResult(NAME, AREA, UNKNOWN,
+                           "No ISSN on file to look the journal up in Crossref by.", evidence=ev)
     if not reached:
         return CheckResult(NAME, AREA, UNKNOWN, "Crossref could not be reached.", evidence=ev)
 

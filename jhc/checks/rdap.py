@@ -73,6 +73,11 @@ def run(journal, http, now: datetime | None = None) -> CheckResult:
     value = {"domain": domain, "registrar": registrar,
              "expires": events.get("expiration"), "registered": events.get("registration")}
 
+    if journal.site_lost:
+        until = f" through {expires.strftime('%B')} {expires.day}, {expires.year}" if expires else ""
+        return CheckResult(NAME, AREA, WARN,
+                           f"{domain} is registered{until}, but it no longer serves the journal.",
+                           value=value, evidence=ev)
     if not expires:
         return CheckResult(NAME, AREA, UNKNOWN,
                            f"{domain} is registered{' with ' + registrar if registrar else ''}, "

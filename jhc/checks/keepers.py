@@ -41,6 +41,9 @@ def run(journal, http) -> CheckResult:
         if rec is None:
             ev.append(evidence(r, note=r.error or "no ISSN Portal record"))
             continue
+        if rec.get("record_status") in ("Suppressed", "Unreported"):
+            ev.append(evidence(r, note=f"skipped: {issn} is {rec['record_status'].lower()} in the ISSN register"))
+            continue
         title = rec.get("key_title") or rec["page_title"]
         if not titles_match(journal_titles(journal), title):
             # Holdings on a record for some other serial say nothing about this one.
@@ -55,9 +58,12 @@ def run(journal, http) -> CheckResult:
             holdings.append({**h, "issn": issn})
 
     if not reached:
-        return CheckResult(NAME, AREA, UNKNOWN,
-                           "No ISSN record for this journal could be read, so its holdings are unknown.",
-                           evidence=ev)
+        if any((e.note or "").startswith("skipped") for e in ev):
+            msg = ("The ISSNs on file belong to another serial or aren't in the register, so this "
+                   "journal's holdings can't be read.")
+        else:
+            msg = "No ISSN record for this journal could be read, so its holdings are unknown."
+        return CheckResult(NAME, AREA, UNKNOWN, msg, evidence=ev)
 
     keepers = {}
     for h in holdings:
@@ -70,6 +76,12 @@ def run(journal, http) -> CheckResult:
     value = {name: {"preserved_to": v["preserved_to"], "statuses": sorted(v["statuses"])}
              for name, v in sorted(keepers.items())}
 
+    if not keepers and not journal.issn_online and journal.platform != "none":
+        # Archives usually report holdings against the online ISSN. With only
+        # the print ISSN on file, an empty result can't be read as "no copy".
+        return CheckResult(NAME, AREA, UNKNOWN,
+                           "No holdings on the print ISSN, and the online ISSN, where archives "
+                           "usually report holdings, isn't on file here.", value={}, evidence=ev)
     if not keepers:
         return CheckResult(NAME, AREA, FAIL,
                            "No archiving agency reports holding this journal.",

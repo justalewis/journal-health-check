@@ -34,8 +34,8 @@
 
   <div class="table-wrap totals-wrap" tabindex="0" role="region" aria-label="Results by check, scrollable">
   <table class="coverage totals">
-    <caption>How many journals met each check in {{ run.label }}. A dash means the check didn't
-      apply, as with DOAJ for a subscription journal.</caption>
+    <caption>How many journals got each result in {{ run.label }}. The n/a column counts journals
+      a check didn't apply to, such as DOAJ for a subscription journal.</caption>
     <thead><tr>
       <th scope="col">Check</th>
       {% for s in ["pass", "warn", "fail", "unknown", "na"] %}<th scope="col" class="num">{{ badge(s) }}</th>{% endfor %}
@@ -70,7 +70,7 @@
         <th scope="col" data-sort="num" class="num area-col"><button type="button">{{ AREA_LABEL[a] }}</button></th>
         {% endfor %}
         {% for m in checks %}
-        <th scope="col" data-sort="num" class="chk"><button type="button" title="{{ m.LABEL }}">{{ m.LABEL }}</button></th>
+        <th scope="col" data-sort="num" class="chk"><button type="button" title="{{ m.LABEL }}"><abbr title="{{ m.LABEL }}">{{ CHECK_SHORT[m.NAME] }}</abbr></button></th>
         {% endfor %}
       </tr>
     </thead>

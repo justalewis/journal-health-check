@@ -18,7 +18,6 @@
     {% if j.in_pinakes %}<a href="{{ j.name | pinakes_link }}">Its articles in Pinakes</a>{% endif %}
     {% if checks.crossref and checks.crossref.value and checks.crossref.value.dois %} · <a href="{{ eunomia_url }}/">Crossref coverage on Eunomia's Labors</a>{% endif %}
   </p>
-  {% if j.notes %}<p class="jnote">{{ j.notes }}</p>{% endif %}
 </section>
 
 {% if not checks %}

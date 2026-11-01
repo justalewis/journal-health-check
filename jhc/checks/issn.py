@@ -23,6 +23,7 @@ def run(journal, http) -> CheckResult:
         )
 
     ev, records, problems = [], [], []
+    unregistered = False
     for issn in issns:
         if not issn_checksum_ok(issn):
             problems.append(f"{issn} fails the ISSN check digit, so it can't be a real ISSN")
@@ -35,6 +36,14 @@ def run(journal, http) -> CheckResult:
         if rec is None:
             problems.append(f"{issn} has no record on the ISSN Portal")
             ev.append(evidence(r, note="no record page for this ISSN"))
+            continue
+        if rec.get("record_status") in ("Suppressed", "Unreported"):
+            what = ("is marked suppressed in the ISSN register, meaning the ISSN Centre treats it "
+                    "as never published" if rec["record_status"] == "Suppressed"
+                    else "has never been reported to the ISSN register")
+            problems.append(f"{issn} {what}")
+            unregistered = True
+            ev.append(evidence(r, excerpt={"record_status": rec["record_status"]}))
             continue
         excerpt = {k: rec.get(k) for k in ("page_title", "key_title", "title_proper", "issn_l",
                                            "publication_medium", "record_status", "last_modified",
@@ -57,7 +66,10 @@ def run(journal, http) -> CheckResult:
         # A title mismatch is a warning, not a failure: the registration may
         # be an old record the ISSN Centre never updated, and that is for a
         # person to sort out. Fail only when no ISSN resolves at all.
-        status = FAIL if not records else WARN
+        # An ISSN the register knows about but lists as suppressed or
+        # unreported is a paperwork problem; a number with no record at all,
+        # or a bad check digit, is a fail.
+        status = FAIL if not records and not unregistered else WARN
         return CheckResult(NAME, AREA, status, "; ".join(problems) + ".", value=value, evidence=ev)
     if not issn_ls:
         return CheckResult(NAME, AREA, WARN, "Registered, but the record shows no ISSN-L.",

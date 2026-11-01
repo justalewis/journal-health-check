@@ -50,6 +50,10 @@ def latest_capture(http, url: str):
 def run(journal, http, now: datetime | None = None) -> CheckResult:
     if not journal.home_url:
         return CheckResult(NAME, AREA, NA, "No web presence to capture.")
+    if journal.platform == "publisher":
+        return CheckResult(NAME, AREA, NA,
+                           "Hosted on a publisher's platform, where the Keepers check is a better "
+                           "guide to preservation than captures of a landing page.")
     now = now or datetime.now(timezone.utc)
 
     ev = []
@@ -93,7 +97,8 @@ def run(journal, http, now: datetime | None = None) -> CheckResult:
     head = f"Last captured {when.strftime('%B')} {when.day}, {when.year} ({age:,} days ago)"
 
     if journal.is_ceased:
-        return CheckResult(NAME, AREA, PASS, head + ". The journal has ceased, so any capture counts.",
+        why = "has ceased" if journal.status == "ceased" else "is no longer online"
+        return CheckResult(NAME, AREA, PASS, head + f". The journal {why}, so any capture counts.",
                            value=value, evidence=ev)
     if age <= FRESH_DAYS:
         return CheckResult(NAME, AREA, PASS, head + ".", value=value, evidence=ev)
