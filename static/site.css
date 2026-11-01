@@ -1,4 +1,4 @@
-/* Journal Health Check additions to the vendored Alexandrian Suite.
+/* Rhet-Comp Journal Accessibility Health Dashboard additions to the vendored Alexandrian Suite.
    Everything here uses the suite's tokens; nothing redefines them. */
 
 main.wide { max-width: 78rem; }

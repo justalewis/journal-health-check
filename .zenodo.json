@@ -1,0 +1,26 @@
+{
+  "title": "Rhet-Comp Journal Accessibility Health Dashboard",
+  "upload_type": "software",
+  "description": "<p>A Flask site and a harvester that check the journals indexed in Pinakes once a month against public records in three areas. Continuity covers domain registration (RDAP) and the HTTPS certificate. Preservation covers holdings in the Keepers Registry and Wayback Machine captures of the home page. Access covers ISSN registration, DOAJ listing, the OpenAlex source record, and Crossref DOI and reference-list deposits, counted with the same queries as Eunomia's Labors. Each check returns met, check, not met, unknown or n/a, and stores the response it relied on with a SHA-256 fingerprint, so every published result can be traced to its source.</p><p>The first harvest (November 2026) covers 56 journals. Monthly snapshots are kept as JSON in the repository, and a GitHub Actions workflow runs the harvest and redeploys the site (https://journal-health-check.fly.dev). PDF and HTML accessibility checks (veraPDF, axe-core), link-rot sampling and a succession-plan record are planned and present as stubs. The code is MIT licensed. The vendored fonts carry their own open licenses.</p>",
+  "creators": [
+    {"name": "Lewis, Justin", "affiliation": "Olympic College", "orcid": "0000-0003-2144-7971"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "rhetoric and composition",
+    "writing studies",
+    "scholarly journals",
+    "digital preservation",
+    "accessibility",
+    "Keepers Registry",
+    "Crossref",
+    "OpenAlex",
+    "DOAJ",
+    "Flask"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.23600025", "relation": "references", "scheme": "doi", "resource_type": "software"},
+    {"identifier": "https://journal-health-check.fly.dev", "relation": "isDocumentedBy", "scheme": "url"}
+  ]
+}

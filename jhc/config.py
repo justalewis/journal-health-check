@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-SITE_NAME = os.environ.get("SITE_NAME", "Journal Health Check")
+SITE_NAME = os.environ.get("SITE_NAME", "Rhet-Comp Journal Accessibility Health Dashboard")
 SITE_TAGLINE = os.environ.get(
     "SITE_TAGLINE", "Continuity, preservation and access for Rhet/Comp journals"
 )

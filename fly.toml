@@ -1,4 +1,4 @@
-# Fly app for Journal Health Check, first deployed 2026-11-01 (region sjc;
+# Fly app for Rhet-Comp Journal Accessibility Health Dashboard, first deployed 2026-11-01 (region sjc;
 # Fly no longer provisions new machines in sea).
 #
 # BASE_URL is the only place the public hostname appears. Moving to a custom

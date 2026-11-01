@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or its monthly snapshots, please cite it as below."
+title: "Rhet-Comp Journal Accessibility Health Dashboard"
+type: software
+version: "0.1.0"
+date-released: "2026-11-01"
+license: MIT
+repository-code: "https://github.com/justalewis/journal-health-check"
+url: "https://journal-health-check.fly.dev"
+abstract: "Monthly checks of rhetoric and composition journals for continuity (domain, HTTPS), preservation (Keepers Registry, Wayback Machine) and access (ISSN, DOAJ, OpenAlex, Crossref), with the evidence behind every result."
+authors:
+  - family-names: "Lewis"
+    given-names: "Justin"
+    affiliation: "Olympic College"
+    orcid: "https://orcid.org/0000-0003-2144-7971"
