@@ -1,7 +1,7 @@
 {
  "label": "2026-11",
  "started_at": "2026-11-01T20:33:34+00:00",
- "finished_at": "2026-11-01T20:50:22+00:00",
+ "finished_at": "2026-11-01T22:09:50+00:00",
  "journals": [
   {
    "name": "College Composition and Communication",
@@ -1478,7 +1478,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:23+00:00"
   },
   {
    "slug": "across-the-disciplines",
@@ -1515,11 +1515,11 @@
        }
       ]
      },
-     "sha256": "6b1637df5bb6497187812c45785848d275a1b0d73925a5a53199e80eb9e9feaf",
+     "sha256": "6a281ca245588909e234cfa0a521a1fea7a612f99d8e1c47919f2e51f4f596d0",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:18+00:00"
   },
   {
    "slug": "across-the-disciplines",
@@ -1554,7 +1554,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:22+00:00"
   },
   {
    "slug": "across-the-disciplines",
@@ -1572,7 +1572,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:21+00:00"
   },
   {
    "slug": "across-the-disciplines",
@@ -1618,7 +1618,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:18+00:00"
   },
   {
    "slug": "across-the-disciplines",
@@ -1649,15 +1649,15 @@
        "expiration": "2035-05-11T19:59:52.886Z",
        "registration": "2016-05-11T19:59:52.886Z",
        "last changed": "2026-08-12T02:46:33.201Z",
-       "last update of RDAP database": "2026-11-01T20:34:24.858Z"
+       "last update of RDAP database": "2026-11-01T22:09:17.621Z"
       },
       "registrar": "GoDaddy.com, LLC"
      },
-     "sha256": "b8f00c15df03f0a99bd4b159ec6f763799200505c84b9a479a6cc53b06d7b555",
+     "sha256": "0e0d55b25cc08d74185812ab021e910625473e52fba1da59f7535fc56833971a",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:17+00:00"
   },
   {
    "slug": "across-the-disciplines",
@@ -1691,7 +1691,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:17+00:00"
   },
   {
    "slug": "across-the-disciplines",
@@ -1726,7 +1726,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:19+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -1829,7 +1829,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:39+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -1839,7 +1839,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:30+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -1891,7 +1891,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:43+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -1991,7 +1991,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:42+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -2039,7 +2039,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:31+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -2051,7 +2051,7 @@
     "domain": "tandfonline.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:27+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -2084,7 +2084,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:07:27+00:00"
   },
   {
    "slug": "advances-in-the-history-of-rhetoric",
@@ -2094,7 +2094,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:28+00:00"
   },
   {
    "slug": "argumentation",
@@ -2197,7 +2197,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:57+00:00"
   },
   {
    "slug": "argumentation",
@@ -2207,7 +2207,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:49+00:00"
   },
   {
    "slug": "argumentation",
@@ -2259,7 +2259,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:02+00:00"
   },
   {
    "slug": "argumentation",
@@ -2448,7 +2448,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:01+00:00"
   },
   {
    "slug": "argumentation",
@@ -2496,7 +2496,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:49+00:00"
   },
   {
    "slug": "argumentation",
@@ -2508,7 +2508,7 @@
     "domain": "springer.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:45+00:00"
   },
   {
    "slug": "argumentation",
@@ -2541,7 +2541,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:07:45+00:00"
   },
   {
    "slug": "argumentation",
@@ -2551,7 +2551,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:47+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2619,7 +2619,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:17+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2629,7 +2629,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:12+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2681,7 +2681,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:21+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2747,7 +2747,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:17+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2795,7 +2795,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:12+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2807,7 +2807,7 @@
     "domain": "sciencedirect.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:04+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2842,7 +2842,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:04+00:00"
   },
   {
    "slug": "assessing-writing",
@@ -2852,7 +2852,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:09+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -2877,7 +2877,7 @@
      "note": "Crossref has no journal record for 2164-5116"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:51+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -2896,7 +2896,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "5076c7024be2286f7723e450549e50afe8a0e57c7f5aa1b2bd479b907459257b",
+     "sha256": "131108da92f068a531cceae50f700a8ae7d1a2e6f57df2d7c1add29d8fd2e5a4",
      "note": null
     },
     {
@@ -2906,11 +2906,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "137d2eaa07b989ec231d4db68129f0fdb88e387dc098e3ed8554060f39a6ad31",
+     "sha256": "2c09804d8008e4e3beeb464a3dfab8f1c146ad4992395dbea9435d576cbde64b",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:50+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -2945,7 +2945,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:53+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -2963,7 +2963,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:51+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -2984,18 +2984,18 @@
      "url": "https://api.openalex.org/sources?search=Basic+Writing+e-Journal&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "03ee3caf446571c071d5a2f2b9c40095928bde99d59c30f76023649ee7529c84",
+     "sha256": "41c9a18e764b7f0a3f79867b9358d8e17b5df58bc71621c0bd3addd1a4e22833",
      "note": "title search: Basic Writing e-Journal"
     },
     {
      "url": "https://api.openalex.org/sources?search=BWe&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "76a8d9c3713ed7f1250f34fd77f2a1ba786ce6dacf9c89c4acf1002b4a15493d",
+     "sha256": "5c4ebf3f537aee12df12cddf022d02283e0dda6f0ad742a3fc510479723d170c",
      "note": "title search: BWe"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:51+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -3007,7 +3007,7 @@
     "domain": "cuny.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:47+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -3018,7 +3018,7 @@
    "value": {
     "host": "bwe.ccny.cuny.edu",
     "not_after": "2027-01-07T21:46:31+00:00",
-    "days_left": 67,
+    "days_left": 66,
     "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3"
    },
@@ -3040,7 +3040,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:47+00:00"
   },
   {
    "slug": "basic-writing-e-journal",
@@ -3075,7 +3075,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:54+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3178,7 +3178,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:58+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3188,7 +3188,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:49+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3240,7 +3240,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:09:02+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3347,7 +3347,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:09:01+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3395,7 +3395,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:49+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3407,7 +3407,7 @@
     "domain": "sagepub.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:45+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3440,7 +3440,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:08:45+00:00"
   },
   {
    "slug": "business-and-professional-communication-quarterly",
@@ -3450,7 +3450,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:47+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3553,7 +3553,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:40+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3563,7 +3563,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3615,7 +3615,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:41+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3655,7 +3655,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:39+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3703,7 +3703,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3715,7 +3715,7 @@
     "domain": "publicationsncte.org"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3749,7 +3749,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-composition-and-communication",
@@ -3759,7 +3759,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-english",
@@ -3862,7 +3862,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:43+00:00"
   },
   {
    "slug": "college-english",
@@ -3872,7 +3872,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-english",
@@ -3924,7 +3924,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:45+00:00"
   },
   {
    "slug": "college-english",
@@ -3964,7 +3964,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:43+00:00"
   },
   {
    "slug": "college-english",
@@ -4012,7 +4012,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-english",
@@ -4024,7 +4024,7 @@
     "domain": "publicationsncte.org"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-english",
@@ -4058,7 +4058,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "college-english",
@@ -4068,7 +4068,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:05:32+00:00"
   },
   {
    "slug": "communication-design-quarterly",
@@ -4133,7 +4133,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:43+00:00"
   },
   {
    "slug": "communication-design-quarterly",
@@ -4152,7 +4152,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "b71e3659365b74e2a667a15df4595cb978c33ef13fab7d8784f61afad11ae138",
+     "sha256": "02300362714c958c2b050ed64bf5283756da265d02a81c10bc6fba798426e4ae",
      "note": null
     },
     {
@@ -4162,11 +4162,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "800fb9e503ce2114cc6591f5dbe65bb5c18c6c7f5a53962112039a250a75e57b",
+     "sha256": "efbf4aeca2be94263ef40a46f4a8e6977603865ec6620706329110719ea3ae2b",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:40+00:00"
   },
   {
    "slug": "communication-design-quarterly",
@@ -4201,7 +4201,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:47+00:00"
   },
   {
    "slug": "communication-design-quarterly",
@@ -4234,7 +4234,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:45+00:00"
   },
   {
    "slug": "communication-design-quarterly",
@@ -4282,7 +4282,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:40+00:00"
   },
   {
    "slug": "communication-design-quarterly",
@@ -4310,15 +4310,15 @@
        "expiration": "2031-02-18T05:00:00Z",
        "registration": "1999-02-18T05:00:00Z",
        "last changed": "2026-08-12T05:40:12.639Z",
-       "last update of RDAP database": "2026-11-01T20:42:42.668Z"
+       "last update of RDAP database": "2026-11-01T22:08:37.895Z"
       },
       "registrar": "Network Solutions, LLC"
      },
-     "sha256": "9d9581e60ebd9b3619793c9de6f7cd39bf44a5976c470b06b5526768d07ce3df",
+     "sha256": "674a2a32629b7cf5e5f2771bbfc7d5d2627c35bc7a41212d40f3dad5f6849a8c",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:37+00:00"
   },
   {
    "slug": "communication-design-quarterly",
@@ -4355,18 +4355,18 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:08:37+00:00"
   },
   {
    "slug": "communication-design-quarterly",
    "check": "wayback",
    "area": "preservation",
    "status": "pass",
-   "summary": "Last captured May 11, 2026 (173 days ago).",
+   "summary": "Last captured May 11, 2026 (174 days ago).",
    "value": {
     "url": "https://cdq.sigdoc.org/",
     "timestamp": "20260511210239",
-    "age_days": 173,
+    "age_days": 174,
     "snapshot": "https://web.archive.org/web/20260511210239/https://cdq.sigdoc.org/"
    },
    "evidence": [
@@ -4390,7 +4390,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:39+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
@@ -4451,7 +4451,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:49+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
@@ -4470,7 +4470,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "b48e94e4db8537e118bef98d1b25cab4514c5757c34d08cfc3fdffb94a53e38e",
+     "sha256": "e8790bf1f0422328e4bdf243520d17b1a037b3c0185d724d7ce8b84b06c632df",
      "note": null
     },
     {
@@ -4480,11 +4480,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "fc6cb39a48884fdc4ff83b748b15246e49f01ad4641d6fc24604766dbe302839",
+     "sha256": "a3d7c587c423741c330e03511cc2b91c90f0b468ca1a41f2a5862f00becbd499",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:45+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
@@ -4510,7 +4510,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:52+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
@@ -4528,7 +4528,7 @@
      "note": "skipped: 2166-1200 is suppressed in the ISSN register"
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:50+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
@@ -4576,7 +4576,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:45+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
@@ -4604,15 +4604,15 @@
        "expiration": "2031-02-18T05:00:00Z",
        "registration": "1999-02-18T05:00:00Z",
        "last changed": "2026-08-12T05:40:12.639Z",
-       "last update of RDAP database": "2026-11-01T20:42:42.668Z"
+       "last update of RDAP database": "2026-11-01T22:08:42.727Z"
       },
       "registrar": "Network Solutions, LLC"
      },
-     "sha256": "9d9581e60ebd9b3619793c9de6f7cd39bf44a5976c470b06b5526768d07ce3df",
+     "sha256": "9340e71d0e52c8ff36095f0ad5efbb935dbcd7e58c73b70390d7bbaf4be96915",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:42+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
@@ -4649,18 +4649,18 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:08:42+00:00"
   },
   {
    "slug": "communication-design-quarterly-review",
    "check": "wayback",
    "area": "preservation",
    "status": "pass",
-   "summary": "Last captured May 11, 2026 (173 days ago). The journal has ceased, so any capture counts.",
+   "summary": "Last captured May 11, 2026 (174 days ago). The journal has ceased, so any capture counts.",
    "value": {
     "url": "https://cdq.sigdoc.org/",
     "timestamp": "20260511210239",
-    "age_days": 173,
+    "age_days": 174,
     "snapshot": "https://web.archive.org/web/20260511210239/https://cdq.sigdoc.org/"
    },
    "evidence": [
@@ -4684,7 +4684,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:44+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -4779,7 +4779,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:41+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -4798,7 +4798,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "8b22910012f11512a8b43edac52b406d96aa840a790c3f083ee020f5db497e66",
+     "sha256": "5f2e4f199489be01a82da4afad4746a139383bf4e572309f499abe377b2fedab",
      "note": null
     },
     {
@@ -4808,7 +4808,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "00e45511eb55d42c63c0617e1d351cd05fe763ab3def3b8409e502a752219ca6",
+     "sha256": "bcc089fbcc6daa7f4b39f68307b142061647fff11ef672317bd520d9dbf93f71",
      "note": null
     },
     {
@@ -4818,11 +4818,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "715b77e7aecf2a442896f2d2b42ff11cd96262bb9ed92e2ec9516e5de9f28f6f",
+     "sha256": "3444398d35337daa30dcca5660e2315c14bc14c3ec86bde255138ca0739997ab",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:36+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -4874,7 +4874,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:50+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -4927,7 +4927,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:48+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -4975,7 +4975,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:36+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -4987,7 +4987,7 @@
     "domain": "fiu.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:33+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -5020,7 +5020,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:31+00:00"
+   "checked_at": "2026-11-01T22:09:33+00:00"
   },
   {
    "slug": "community-literacy-journal",
@@ -5055,7 +5055,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:34+00:00"
   },
   {
    "slug": "composition-forum",
@@ -5098,7 +5098,7 @@
      "note": "skipped: Crossref files 1522-7502 under “FORUM Issues about Part-Time and Contingent Faculty”"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:48+00:00"
   },
   {
    "slug": "composition-forum",
@@ -5138,7 +5138,7 @@
        }
       ]
      },
-     "sha256": "dacf17784d653f36f120ec38577d744ce6dcce55055200b3417769ebd4090e72",
+     "sha256": "76017b480636131984ab5c42e03aa983e90f6cc2fd530f63204e340381454888",
      "note": null
     },
     {
@@ -5148,11 +5148,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "ed55a41f998654a2bd5398ea9f6e4955e72e02f4ac6ba6d4a8857cfc4f10d33f",
+     "sha256": "078c5e08f8dcbe12d9a934c4440a633a8a52b55ec9036f13ad63708f238e7004",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:47+00:00"
   },
   {
    "slug": "composition-forum",
@@ -5187,7 +5187,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:51+00:00"
   },
   {
    "slug": "composition-forum",
@@ -5205,7 +5205,7 @@
      "note": "skipped: 1522-7502 is registered to “Forum (Conference on College Composition and Communication)”"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:50+00:00"
   },
   {
    "slug": "composition-forum",
@@ -5251,7 +5251,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:47+00:00"
   },
   {
    "slug": "composition-forum",
@@ -5279,49 +5279,36 @@
        "registration": "2005-09-19T17:00:59Z",
        "expiration": "2027-09-19T17:00:59Z",
        "last changed": "2026-08-20T04:42:36Z",
-       "last update of RDAP database": "2026-11-01T20:27:15Z"
+       "last update of RDAP database": "2026-11-01T22:05:31Z"
       },
       "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com"
      },
-     "sha256": "7668ccb0c7787e1a1f978148c2344de147c204104eedd59b1752bad0f894f71c",
+     "sha256": "6ba0badc9be5133459f6f7ffcee2247ca93f481ebf622fc3469d52f8db45bc4a",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:43+00:00"
   },
   {
    "slug": "composition-forum",
    "check": "tls",
    "area": "continuity",
-   "status": "pass",
-   "summary": "Valid certificate from Let's Encrypt, good through December 14, 2026.",
-   "value": {
-    "host": "compositionforum.com",
-    "not_after": "2026-12-14T00:43:58+00:00",
-    "days_left": 42,
-    "issuer": "Let's Encrypt",
-    "protocol": "TLSv1.3"
-   },
+   "status": "unknown",
+   "summary": "The handshake with compositionforum.com didn't complete (timed out).",
+   "value": null,
    "evidence": [
     {
      "url": "tls://compositionforum.com:443",
      "http_status": null,
      "excerpt": {
-      "subject": "*.compositionforum.com",
-      "issuer": "Let's Encrypt",
-      "notBefore": "Sep 15 00:43:59 2026 GMT",
-      "notAfter": "Dec 14 00:43:58 2026 GMT",
-      "subjectAltName": [
-       "*.compositionforum.com",
-       "compositionforum.com"
-      ],
-      "protocol": "TLSv1.3"
+      "error": "timed out",
+      "kind": "timeout"
      },
      "sha256": null,
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:05:58+00:00"
   },
   {
    "slug": "composition-forum",
@@ -5338,12 +5325,12 @@
    "evidence": [
     {
      "url": "https://compositionforum.com/",
-     "http_status": 200,
+     "http_status": null,
      "excerpt": {
-      "final_url": "https://compositionforum.com/"
+      "final_url": null
      },
      "sha256": null,
-     "note": null
+     "note": "the home page did not answer (ConnectTimeout: HTTPSConnectionPool(host='compositionforum.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='compositionforum.com', port=443) at 0x7ff1c78d8110>, 'Connection to compositionforum.com timed out. (connect timeout=30.0)')))"
     },
     {
      "url": "https://web.archive.org/cdx/search/cdx?url=compositionforum.com%2F&output=json&fl=timestamp%2Cstatuscode%2Coriginal&filter=statuscode%3A200&limit=-1&fastLatest=true",
@@ -5356,7 +5343,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:49+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5381,7 +5368,7 @@
      "note": "Crossref has no journal record for 1534-9322"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:43+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5400,7 +5387,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "e9057b823620e61b9733bc95d619f31de0514ece68c28dc6b47992f9dc36fa27",
+     "sha256": "e0afe638f791c05c702d2d06e321305204cd2f555659b15a53589278e4834dbb",
      "note": null
     },
     {
@@ -5410,11 +5397,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "3cddd2dfdbec7a8734aed704c48e4a51d0c02aa829aa82f5e9cf221c5e64872f",
+     "sha256": "3830bc42c422e7db66453f95217a4eb4fa135f9b0203ece3529619a8b448c24d",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:42+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5449,7 +5436,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:48+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5467,7 +5454,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:46+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5504,11 +5491,11 @@
        "updated_date": "2026-10-31T15:48:48"
       }
      ],
-     "sha256": "28a78b3087bea8d7ad12ba3566c34bad51ead6a7ac1343f97475cb799420f701",
+     "sha256": "6c825ce7a42ac174a47837952f3ce5c5b2c3be18726c3310c7c04a1a6fe0394b",
      "note": "title search: Composition Studies"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:42+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5536,15 +5523,15 @@
        "registration": "2019-01-15T18:00:26Z",
        "expiration": "2027-01-15T18:00:26Z",
        "last changed": "2025-12-26T10:05:45Z",
-       "last update of RDAP database": "2026-11-01T20:33:30Z"
+       "last update of RDAP database": "2026-11-01T22:05:31Z"
       },
       "registrar": "Automattic Inc."
      },
-     "sha256": "59df72ebd1f77ea979a731c33efe1b31d1a1acc288b08e87e890daa21b7531b0",
+     "sha256": "b720583fbaf58ba738121358fa10b73f354f8303941667085fb65c34c063e15e",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:40+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5555,7 +5542,7 @@
    "value": {
     "host": "compstudiesjournal.com",
     "not_after": "2026-12-02T22:04:31+00:00",
-    "days_left": 31,
+    "days_left": 30,
     "issuer": "Google Trust Services",
     "protocol": "TLSv1.3"
    },
@@ -5586,7 +5573,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:05:39+00:00"
   },
   {
    "slug": "composition-studies",
@@ -5621,7 +5608,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:05:41+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5689,7 +5676,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:30+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5699,7 +5686,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:23+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5751,7 +5738,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:36+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5817,7 +5804,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:34+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5865,7 +5852,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:23+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5877,7 +5864,7 @@
     "domain": "sciencedirect.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:23+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5912,7 +5899,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:31+00:00"
+   "checked_at": "2026-11-01T22:09:23+00:00"
   },
   {
    "slug": "computers-and-composition",
@@ -5922,7 +5909,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:23+00:00"
   },
   {
    "slug": "double-helix",
@@ -5983,7 +5970,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:09:03+00:00"
   },
   {
    "slug": "double-helix",
@@ -6002,7 +5989,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "7b1c37af02b38cca19dcd413710342b81dee514b2c7036def6475c3e8e2ac655",
+     "sha256": "94858cd2c01473c5001c3c11efc2d14443915a6122625f389078696c9dfb7257",
      "note": null
     },
     {
@@ -6012,11 +5999,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "9127c19a3fbb4f0b817f6460101c4b347d9195c1ce54d5dd3d291a5d82a8f60f",
+     "sha256": "63280f0b4f2963768d53000a5d2b2b26e7f8e5d8ff8f5dcf6d7a4912c15d0d23",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:53+00:00"
   },
   {
    "slug": "double-helix",
@@ -6051,7 +6038,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:59+00:00"
   },
   {
    "slug": "double-helix",
@@ -6069,7 +6056,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:57+00:00"
   },
   {
    "slug": "double-helix",
@@ -6115,7 +6102,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:53+00:00"
   },
   {
    "slug": "double-helix",
@@ -6144,15 +6131,15 @@
        "expiration": "2027-02-06T16:52:02.88Z",
        "registration": "2026-02-06T16:52:02.88Z",
        "last changed": "2026-08-12T02:28:52.6Z",
-       "last update of RDAP database": "2026-11-01T20:36:51.816Z"
+       "last update of RDAP database": "2026-11-01T22:08:50.19Z"
       },
       "registrar": "Porkbun LLC"
      },
-     "sha256": "97320d12c0e5423a4af53563ba566dc8cbbc3406d377bd2b8bd44d1798fc63da",
+     "sha256": "7069b9ed501dae9da1257ac1dfc40eb8afc84ddbf6c20b52d314c874c0842c09",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:50+00:00"
   },
   {
    "slug": "double-helix",
@@ -6194,7 +6181,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:08:50+00:00"
   },
   {
    "slug": "double-helix",
@@ -6229,7 +6216,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:52+00:00"
   },
   {
    "slug": "enculturation",
@@ -6239,7 +6226,7 @@
    "summary": "No ISSN on file to look the journal up in Crossref by.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "enculturation",
@@ -6258,11 +6245,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "b84ca604a04833c7762e7fc1178f5f1fac5d83d3c8fff020faf5eb0893474b63",
+     "sha256": "9912a63c2d8092a19c2efad41ce0b21b3254ca783989390d6485e83419d9ef4b",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "enculturation",
@@ -6280,7 +6267,7 @@
      "note": "no ISSN in data/journals.yaml"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:07+00:00"
   },
   {
    "slug": "enculturation",
@@ -6290,7 +6277,7 @@
    "summary": "No ISSN on file, and the Keepers Registry is searched by ISSN.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:07+00:00"
   },
   {
    "slug": "enculturation",
@@ -6304,11 +6291,11 @@
      "url": "https://api.openalex.org/sources?search=Enculturation&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "817cf74d940b98d4ea16565e14f59529d4e25bf1dea940a56b8b7370a3c66b97",
+     "sha256": "dab329c1f270683f8cf043b9d30807f891a1b35dd54b391522fe9e340f15ccab",
      "note": "title search: Enculturation"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "enculturation",
@@ -6336,15 +6323,15 @@
        "registration": "2010-10-05T19:59:26Z",
        "expiration": "2027-10-05T19:59:26Z",
        "last changed": "2026-08-23T08:12:33Z",
-       "last update of RDAP database": "2026-11-01T20:35:45Z"
+       "last update of RDAP database": "2026-11-01T22:07:46Z"
       },
       "registrar": "eNom, LLC"
      },
-     "sha256": "0d4b4f157f5e400b7792325c48e144455882b03c0dbf6650f400d5f8ea4cbd79",
+     "sha256": "42b636ab28215bf4658f009587048c761700c4977a2ef43ac51c1f9fd01f90d9",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:07+00:00"
   },
   {
    "slug": "enculturation",
@@ -6381,7 +6368,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:06+00:00"
   },
   {
    "slug": "enculturation",
@@ -6416,7 +6403,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6519,7 +6506,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:38+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6529,7 +6516,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:32+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6581,7 +6568,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:49+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6641,7 +6628,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:44+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6689,7 +6676,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:33+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6701,7 +6688,7 @@
     "domain": "ieee.org"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:27+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6734,7 +6721,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:08:27+00:00"
   },
   {
    "slug": "ieee-transactions-on-professional-communication",
@@ -6744,7 +6731,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:32+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6769,7 +6756,7 @@
      "note": "Crossref has no journal record for 0731-6755"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:58+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6779,7 +6766,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:57+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6814,7 +6801,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:04+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6832,7 +6819,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:59+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6878,7 +6865,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:58+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6908,15 +6895,15 @@
        "registration": "2011-10-11T20:55:10Z",
        "expiration": "2028-10-11T20:55:10Z",
        "last changed": "2026-10-12T20:21:10Z",
-       "last update of RDAP database": "2026-11-01T20:35:30Z"
+       "last update of RDAP database": "2026-11-01T22:07:31Z"
       },
       "registrar": "GoDaddy.com, LLC"
      },
-     "sha256": "028b2f0dbc8a38fed64c7e8013917f604dafcfd9818c8634fc730bc3de81088b",
+     "sha256": "10994ee0b8fbcb0fc39ac5425208d27c6a7d7ad9c32731e01d07fb7a3af9d5d7",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:52+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6928,7 +6915,7 @@
     "host": "www.jaconlinejournal.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:51+00:00"
   },
   {
    "slug": "jac-a-journal-of-rhetoric-culture-and-politics",
@@ -6950,7 +6937,7 @@
       "final_url": null
      },
      "sha256": null,
-     "note": "the home page did not answer (ConnectionError: HTTPSConnectionPool(host='www.aiccindia.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.aiccindia.org', port=443): Failed to resolve 'www.aiccindia.org' ([Errno 11001] getaddrinfo failed)\")))"
+     "note": "the home page did not answer (ConnectionError: HTTPSConnectionPool(host='www.aiccindia.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.aiccindia.org', port=443): Failed to resolve 'www.aiccindia.org' ([Errno -2] Name or service not known)\")))"
     },
     {
      "url": "https://web.archive.org/cdx/search/cdx?url=www.jaconlinejournal.com%2F&output=json&fl=timestamp%2Cstatuscode%2Coriginal&filter=statuscode%3A200&limit=-1&fastLatest=true",
@@ -6963,7 +6950,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:22+00:00"
+   "checked_at": "2026-11-01T22:07:59+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7024,7 +7011,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:28+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7043,7 +7030,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "6df9b8c212b3184ecdbb782d6f114d2c29a2e7699d2cce4bc2f47a36fa6c7c3e",
+     "sha256": "a8d71cb45e4b07d65913636f294afe0635e9443bc412f5a477631461d25e8fa4",
      "note": null
     },
     {
@@ -7053,11 +7040,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "2142a768a98c5aac86ef096523a9057236cdcdc0358516e43d43cb82c37fd7e7",
+     "sha256": "6136c70cdd2ba714a599d253e7303126948ff7ee7de76277fab66206c6cdfb15",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:25+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7092,7 +7079,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:27+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7110,7 +7097,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:24+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7156,7 +7143,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:24+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7168,7 +7155,7 @@
     "domain": "coventry.ac.uk"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:18+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7201,7 +7188,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:18+00:00"
   },
   {
    "slug": "journal-of-academic-writing",
@@ -7236,7 +7223,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:22+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7339,7 +7326,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:27+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7349,7 +7336,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:20+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7401,7 +7388,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:37+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7514,7 +7501,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:32+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7564,7 +7551,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:20+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7576,7 +7563,7 @@
     "domain": "sagepub.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:15+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7609,7 +7596,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:15+00:00"
   },
   {
    "slug": "journal-of-business-and-technical-communication",
@@ -7619,7 +7606,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:19+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7644,7 +7631,7 @@
      "note": "Crossref has no journal record for 2472-7318"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:33+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7663,7 +7650,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "4520bb93cad72057f8182d22bb3d09ded63f909e01e42042107d4ac757b178ee",
+     "sha256": "21ae2e74856504fade698a08639e5ec27d6f19b4a13a4760b5c815c52a2f031b",
      "note": null
     },
     {
@@ -7673,11 +7660,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "bd7de9cf14ed859eabeae2f6d96dfcf46324051568b379f6339fd7f67a0c6597",
+     "sha256": "3e033ef8b30e5961ff748b9fa3ad5e817d5291a87d3ddaa842b591da0bf2692b",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:32+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7712,7 +7699,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:39+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7730,7 +7717,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:38+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7751,7 +7738,7 @@
      "url": "https://api.openalex.org/sources?search=Journal+of+Multimodal+Rhetorics&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "820985b4fcbabacc44037b0512b64b3227042b94e0b6da329ba6def6f5921a2a",
+     "sha256": "cc07e9ff1a29946b3972bb55fc79c4d8bd232e7ca92696646d110752d44a995a",
      "note": "title search: Journal of Multimodal Rhetorics"
     },
     {
@@ -7774,11 +7761,11 @@
        "updated_date": "2026-11-01T10:02:32"
       }
      ],
-     "sha256": "13ce363c8f75a90445290c53b070200c9309192d56e080eadad8818bf454714c",
+     "sha256": "b10e449650c70ef1692683f603504ac27b6c7278171f1b6d37e8132ff31e9a10",
      "note": "title search: JOMR"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:33+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7806,15 +7793,15 @@
        "registration": "2019-04-01T23:38:34Z",
        "expiration": "2028-04-01T23:38:34Z",
        "last changed": "2026-03-04T18:12:12Z",
-       "last update of RDAP database": "2026-11-01T20:37:15Z"
+       "last update of RDAP database": "2026-11-01T22:09:16Z"
       },
       "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com"
      },
-     "sha256": "70ff6363f36c6d187d8dd385f5227810e5f83ef6b5070ed919120905fa48a5d1",
+     "sha256": "ea8164ce14f3a7c3b060797077e032d487ff50838ba2c261717596e734c409b1",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:29+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7848,7 +7835,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:31+00:00"
+   "checked_at": "2026-11-01T22:09:29+00:00"
   },
   {
    "slug": "journal-of-multimodal-rhetorics",
@@ -7883,7 +7870,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:31+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -7908,7 +7895,7 @@
      "note": "Crossref has no journal record for 2575-9809"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:57+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -7927,7 +7914,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "294f6ed676c6542847f8d2b981de823b3633f581a599b57232238c33a67a98c9",
+     "sha256": "af9f2fce7be9d79f567296d2831ef9d694fa4f4d0afde9fb16889a96203aaab4",
      "note": null
     },
     {
@@ -7937,11 +7924,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "2fe184a067660687050d6f37f8b26214826c1c5758e035c36cb108eecdbf54bd",
+     "sha256": "e1cb4413faf89f85c5dff064fc88523e0c10af88477387ad209ee92ae070e992",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:57+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -7976,7 +7963,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:00+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -7994,7 +7981,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:58+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -8015,11 +8002,11 @@
      "url": "https://api.openalex.org/sources?search=Journal+of+Response+to+Writing&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "4e93800587705d9a0a3767bb53da779b07a940975ff88a8c95bc6ed605a018de",
+     "sha256": "355254072a043fb000df64535a9c608612d565609397d28bf21eb3b8717eacef",
      "note": "title search: Journal of Response to Writing"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:57+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -8031,7 +8018,7 @@
     "domain": "byu.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:53+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -8064,7 +8051,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:06:53+00:00"
   },
   {
    "slug": "journal-of-response-to-writing",
@@ -8099,7 +8086,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:58+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8202,7 +8189,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:32+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8212,7 +8199,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:26+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8264,7 +8251,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:42+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8351,7 +8338,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:39+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8399,7 +8386,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:27+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8411,7 +8398,7 @@
     "domain": "sagepub.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:21+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8444,7 +8431,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:08:21+00:00"
   },
   {
    "slug": "journal-of-technical-writing-and-communication",
@@ -8454,7 +8441,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:25+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8515,7 +8502,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:43+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8534,7 +8521,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "9b60687a310a7e3c30d6c5327e3ff040ef1cfa7e1d5652a0f15f5d8bcb6139a3",
+     "sha256": "a82c437b64e494fa7a62f0af19058fbda1a902710dc29a8783921daa2af0d55d",
      "note": null
     },
     {
@@ -8544,11 +8531,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "4352fb50f655bde9224067188b716017c62cdaa9c2489e1907e8f83dd4288b49",
+     "sha256": "a2b6f590491109abfb957f3ce6635a3fce43ed9718d8a72f8ced82584143d3fe",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:35+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8583,7 +8570,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:36+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8601,7 +8588,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:34+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8647,7 +8634,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:35+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8678,15 +8665,15 @@
        "expiration": "2035-05-11T19:59:52.886Z",
        "registration": "2016-05-11T19:59:52.886Z",
        "last changed": "2026-08-12T02:46:33.201Z",
-       "last update of RDAP database": "2026-11-01T20:34:24.858Z"
+       "last update of RDAP database": "2026-11-01T22:06:29.18Z"
       },
       "registrar": "GoDaddy.com, LLC"
      },
-     "sha256": "b8f00c15df03f0a99bd4b159ec6f763799200505c84b9a479a6cc53b06d7b555",
+     "sha256": "7bf42d91b8e827c6290908e78bd07c6912d0a8fc10a6c60d3ccc6b6c9905445d",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:29+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8720,7 +8707,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:29+00:00"
   },
   {
    "slug": "journal-of-writing-analytics",
@@ -8755,7 +8742,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:30+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -8858,7 +8845,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:24+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -8895,11 +8882,11 @@
        }
       ]
      },
-     "sha256": "5938d27654f901c5fbfb37f1848256308fc697eab31cd96df6a277d276b6dc22",
+     "sha256": "5717d8c00af951ef34f2b0bdf9f17c6e1858ddb17d990325adcb65cca5b46aac",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:17+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -8951,7 +8938,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:29+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -8976,7 +8963,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:26+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -9024,7 +9011,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:17+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -9054,15 +9041,15 @@
        "expiration": "2027-10-24T09:34:26.196Z",
        "registration": "2007-10-24T09:34:26.196Z",
        "last changed": "2026-10-28T03:20:21.828Z",
-       "last update of RDAP database": "2026-11-01T20:34:09.192Z"
+       "last update of RDAP database": "2026-11-01T22:06:13.141Z"
       },
       "registrar": "Porkbun LLC"
      },
-     "sha256": "8b279f8ace54532bca01fd17b407e5e6b87f76ae7e8bf56adb62964cfdc31884",
+     "sha256": "ccc69201fe24f14459b6cbc5e594ca516274a8980d886204ccaf42141d9520f4",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:13+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -9096,7 +9083,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:12+00:00"
   },
   {
    "slug": "journal-of-writing-research",
@@ -9141,7 +9128,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:17+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9166,7 +9153,7 @@
      "note": "Crossref has no journal record for 1521-2300"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:29+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9185,7 +9172,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "5951496edbbe72a3f3e1bb069bb3a207db9f3daac07d107e01bb58101305e434",
+     "sha256": "4542d3480fbebd4173cc4af53283c71e26d7301c83ef225bfd6021d8d70e86e0",
      "note": null
     },
     {
@@ -9248,11 +9235,11 @@
        }
       ]
      },
-     "sha256": "03922bfc612bafe6c9caf13ec7095ce36cd7eaee8f9d3f3fb1a27a5e39102192",
+     "sha256": "fb8bbd1f7bd8f39af5ad61fd98ea6f9791821aa719725793272f759334cd2b6a",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:28+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9287,7 +9274,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:33+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9305,7 +9292,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:31+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9351,7 +9338,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:28+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9379,15 +9366,15 @@
        "registration": "2004-01-17T06:54:29Z",
        "expiration": "2027-01-17T06:54:29Z",
        "last changed": "2026-01-18T08:05:19Z",
-       "last update of RDAP database": "2026-11-01T20:37:00Z"
+       "last update of RDAP database": "2026-11-01T22:09:16Z"
       },
       "registrar": "IONOS SE"
      },
-     "sha256": "c8f1331d2197ae528b98b9f1dcf1e294c438d28cb36349efcd6dfcebf38349ea",
+     "sha256": "a14c463222ceae7ee63ec8b19775f5611cce3e9d1dacbcd70a074d079ab1962f",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:24+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9422,7 +9409,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:31+00:00"
+   "checked_at": "2026-11-01T22:09:24+00:00"
   },
   {
    "slug": "kairos-a-journal-of-rhetoric-technology-and-pedagogy",
@@ -9457,7 +9444,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:26+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9482,7 +9469,7 @@
      "note": "Crossref has no journal record for 1930-0026"
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9501,7 +9488,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "763eff0d196d66f40af1d320d69b082543ac16af2bb4b52d7c200681ede28760",
+     "sha256": "6ba6e681b1378e648d103705b7d864d57fd87e78c92eacb484549b48367d9d95",
      "note": null
     },
     {
@@ -9511,11 +9498,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "2c68e1c68d5029b2bd314e7fef0aeb26f2f5fe9d85131ecb3b58c6c576a1243f",
+     "sha256": "95b362c7eb407edec56d27ace27b9512b894fbba8ac4ad9632564eb859caf452",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:06+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9550,7 +9537,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:11+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9568,7 +9555,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:09+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9605,11 +9592,11 @@
        "updated_date": "2026-10-30T16:16:26"
       }
      ],
-     "sha256": "9aa2175e9508fb9355a0cd1b82cda630b49661e1a020cdae1d866ba149b0b3bf",
+     "sha256": "e83b9fb178e00a909b887dab46487a5eef500957b918cf4542db54d54a654ff9",
      "note": "title search: KB Journal"
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:06+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9638,15 +9625,15 @@
        "expiration": "2027-02-28T07:57:23Z",
        "registration": "2004-02-29T07:57:23Z",
        "last changed": "2026-08-11T23:59:59.641Z",
-       "last update of RDAP database": "2026-11-01T20:36:00.997Z"
+       "last update of RDAP database": "2026-11-01T22:08:03.654Z"
       },
       "registrar": "eNom, LLC"
      },
-     "sha256": "42ed1aa5eb30ca998e135ab70714eb0aa783e6f662de2ac44450278974326477",
+     "sha256": "4836cf2cdef2cdf87c2ceb9484c266ffd5a255ff7df4614c2e4ce7cef15977a5",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:08:03+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9683,7 +9670,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:03+00:00"
   },
   {
    "slug": "kb-journal-the-journal-of-the-kenneth-burke-society",
@@ -9718,7 +9705,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:05+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
@@ -9783,7 +9770,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:51+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
@@ -9802,7 +9789,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "cc2034ea30d97ccd83958903ff1d2b81b066a6dad11074e0f82249a72a962379",
+     "sha256": "92c8c47e4779070e5bfd914512d04934297d65d83bf00a2c7154b80cab0ded43",
      "note": null
     },
     {
@@ -9812,11 +9799,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "86cca1fd370f504c08356dd54a9d587ab20f55572ad6a5f697dce864c53330d6",
+     "sha256": "f0e21493e169f6064afe6a4f8462605888eec0f29215dcf61cc97cce53c5805f",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:47+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
@@ -9851,7 +9838,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:49+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
@@ -9892,7 +9879,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:48+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
@@ -9938,7 +9925,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:47+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
@@ -9970,15 +9957,15 @@
        "expiration": "2027-03-19T19:51:28.507Z",
        "registration": "2012-03-19T19:51:28.507Z",
        "last changed": "2026-08-12T09:08:41.604Z",
-       "last update of RDAP database": "2026-11-01T20:27:23.69Z"
+       "last update of RDAP database": "2026-11-01T22:06:45.284Z"
       },
       "registrar": "GoDaddy.com, LLC"
      },
-     "sha256": "7eb3683a300d0a8c350a28f31a214cb5f583b76248130d6e85e9a43f7b43af96",
+     "sha256": "df52193b6a27451c06fbda04571204ddb3d0a37689c3dcfc7cac4db00e356944",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:45+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
@@ -10012,18 +9999,18 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:45+00:00"
   },
   {
    "slug": "literacy-in-composition-studies",
    "check": "wayback",
    "area": "preservation",
    "status": "pass",
-   "summary": "Last captured October 19, 2026 (12 days ago).",
+   "summary": "Last captured October 19, 2026 (13 days ago).",
    "value": {
     "url": "https://licsjournal.org/index.php/LiCS",
     "timestamp": "20261019212731",
-    "age_days": 12,
+    "age_days": 13,
     "snapshot": "https://web.archive.org/web/20261019212731/https://licsjournal.org/index.php/LiCS"
    },
    "evidence": [
@@ -10057,7 +10044,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:51+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10118,7 +10105,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:56+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10137,7 +10124,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "ef768fc676e6c301a242e671de9088d77601f5f747a0288c6781019546c8b003",
+     "sha256": "860cf405ab14c93056ba8cabbc22a338ad3bcdd08c68b689df71e672562a7efc",
      "note": null
     },
     {
@@ -10147,11 +10134,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "38669a29e7a0ebf728fd76bb1939e8864aeb7b03cc07a52f4e17f994d9863dc1",
+     "sha256": "e9493480027d8e6d64c198304ead1b1e104eb17cef256e97150a232ff0f13a09",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:52+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10177,7 +10164,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:56+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10195,7 +10182,7 @@
      "note": "skipped: 2690-392X is unreported in the ISSN register"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:54+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10241,7 +10228,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:52+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10272,15 +10259,15 @@
        "expiration": "2035-05-11T19:59:52.886Z",
        "registration": "2016-05-11T19:59:52.886Z",
        "last changed": "2026-08-12T02:46:33.201Z",
-       "last update of RDAP database": "2026-11-01T20:34:24.858Z"
+       "last update of RDAP database": "2026-11-01T22:06:51.707Z"
       },
       "registrar": "GoDaddy.com, LLC"
      },
-     "sha256": "b8f00c15df03f0a99bd4b159ec6f763799200505c84b9a479a6cc53b06d7b555",
+     "sha256": "ea28f35a457405d70527c288c82d2329b43a070a95f9ddb9a33cb3c1b61c6a40",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:51+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10314,7 +10301,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:06:51+00:00"
   },
   {
    "slug": "open-words-access-and-english-studies",
@@ -10349,7 +10336,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:56+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10452,7 +10439,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:04+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10462,7 +10449,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:58+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10514,7 +10501,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:09+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10596,7 +10583,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:03+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10644,7 +10631,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:58+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10656,7 +10643,7 @@
     "domain": "dukeupress.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:52+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10689,7 +10676,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:05:52+00:00"
   },
   {
    "slug": "pedagogy",
@@ -10699,7 +10686,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:05:56+00:00"
   },
   {
    "slug": "peitho",
@@ -10760,7 +10747,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "peitho",
@@ -10779,7 +10766,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "40d140ac6276f344370e243a3cb99be83aa7a217bf4e06c4da543c278abee009",
+     "sha256": "9b1caabf82ff6a910d6c053a21c5e4affb80acd9cba6a7a5da5223d94f84070f",
      "note": null
     },
     {
@@ -10802,11 +10789,11 @@
        }
       ]
      },
-     "sha256": "53aed359a009c53ee6053429a3eb3b053b194513be43f893a34860a1e6801524",
+     "sha256": "f586913ec030385915166e36faf4b6181b5c7c0fdc27f8c8f618cd8ea773c477",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:02+00:00"
   },
   {
    "slug": "peitho",
@@ -10841,7 +10828,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:07+00:00"
   },
   {
    "slug": "peitho",
@@ -10859,7 +10846,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:06+00:00"
   },
   {
    "slug": "peitho",
@@ -10905,7 +10892,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:02+00:00"
   },
   {
    "slug": "peitho",
@@ -10933,15 +10920,15 @@
        "expiration": "2027-10-02T18:05:12.98Z",
        "registration": "2019-10-02T18:05:12.98Z",
        "last changed": "2026-09-29T23:54:09.409Z",
-       "last update of RDAP database": "2026-11-01T20:35:54.315Z"
+       "last update of RDAP database": "2026-11-01T22:07:58.587Z"
       },
       "registrar": "eNom, LLC"
      },
-     "sha256": "1a9ec80b65a78384e4197c888facdb9be876934f336edfd9cb0cad1e5a5a08b9",
+     "sha256": "fb5a0875f59273f35646f3ad6f56eeb997fc24e6c6eea81e4465001e9d5cfad3",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:58+00:00"
   },
   {
    "slug": "peitho",
@@ -10975,7 +10962,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:07:58+00:00"
   },
   {
    "slug": "peitho",
@@ -11010,7 +10997,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:01+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11113,7 +11100,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:18+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11123,7 +11110,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:11+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11175,7 +11162,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:28+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11248,7 +11235,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:21+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11296,7 +11283,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:13+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11308,7 +11295,7 @@
     "domain": "scholarlypublishingcollective.org"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:06+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11341,7 +11328,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:06+00:00"
   },
   {
    "slug": "philosophy-rhetoric",
@@ -11351,7 +11338,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:11+00:00"
   },
   {
    "slug": "poroi",
@@ -11412,7 +11399,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:31+00:00"
   },
   {
    "slug": "poroi",
@@ -11431,7 +11418,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "a173376c6084b841030b7c019a73730c336c14172a3fcf8ef371cba10da938a9",
+     "sha256": "63c4c123f3ca1234fd6f0f74e3be0b8408fb9b42e3460d8580f03619c4782724",
      "note": null
     },
     {
@@ -11441,11 +11428,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "24928620ae12349ba54b91e1d814ccd8926ea657491c9dd3d72f1dc798165a3d",
+     "sha256": "a1334fc1f3df2e4df150276f50d89a3607e4ab431af081cd351e37199d4b6f3c",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:26+00:00"
   },
   {
    "slug": "poroi",
@@ -11480,7 +11467,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:30+00:00"
   },
   {
    "slug": "poroi",
@@ -11534,7 +11521,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:27+00:00"
   },
   {
    "slug": "poroi",
@@ -11580,7 +11567,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:26+00:00"
   },
   {
    "slug": "poroi",
@@ -11592,7 +11579,7 @@
     "domain": "uiowa.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:18+00:00"
   },
   {
    "slug": "poroi",
@@ -11626,18 +11613,18 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:18+00:00"
   },
   {
    "slug": "poroi",
    "check": "wayback",
    "area": "preservation",
    "status": "pass",
-   "summary": "Last captured October 19, 2026 (12 days ago).",
+   "summary": "Last captured October 19, 2026 (13 days ago).",
    "value": {
     "url": "https://pubs.lib.uiowa.edu/poroi/",
     "timestamp": "20261019212039",
-    "age_days": 12,
+    "age_days": 13,
     "snapshot": "https://web.archive.org/web/20261019212039/https://pubs.lib.uiowa.edu/poroi/"
    },
    "evidence": [
@@ -11661,7 +11648,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:23+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11671,7 +11658,7 @@
    "summary": "No ISSN on file to look the journal up in Crossref by.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:12+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11745,11 +11732,11 @@
        }
       ]
      },
-     "sha256": "501cf5278cadec855c11f97c9d354f0140478e079e3e83834d4668694d1d4bf1",
+     "sha256": "6803a06f6fcbe6af461d445a792d4310c4433d3c68c35dad78ec455acc95e351",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:12+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11767,7 +11754,7 @@
      "note": "no ISSN in data/journals.yaml"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:12+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11777,7 +11764,7 @@
    "summary": "No ISSN on file, and the Keepers Registry is searched by ISSN.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:11+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11889,11 +11876,11 @@
        "updated_date": "2026-10-31T15:48:48"
       }
      ],
-     "sha256": "49b070be9a72362a4946343670e5208b77060758724e62fbd9769a7393978d58",
+     "sha256": "10b484eebf2a97ab025ff49d52e1554886d40d6677b66a175a8b52ac921c4cc9",
      "note": "title search: Praxis"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:12+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11906,7 +11893,7 @@
     "registrar": "Tucows Domains Inc.",
     "expires": "2027-11-07T21:23:11Z",
     "registered": "2014-11-07T21:23:11Z",
-    "days_left": 371
+    "days_left": 370
    },
    "evidence": [
     {
@@ -11922,15 +11909,15 @@
        "registration": "2014-11-07T21:23:11Z",
        "expiration": "2027-11-07T21:23:11Z",
        "last changed": "2026-10-24T06:36:50Z",
-       "last update of RDAP database": "2026-11-01T20:36:45Z"
+       "last update of RDAP database": "2026-11-01T22:09:01Z"
       },
       "registrar": "Tucows Domains Inc."
      },
-     "sha256": "dccb5a6d978f3867f98ee8c5baeef77d941ae8dc746b0f5bdbb5d206a07edf69",
+     "sha256": "70c36d89ef52d27dc80f3227b05299c8eb7eced0e35cfb639c87c17906b62cba",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:11+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11963,7 +11950,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:11+00:00"
   },
   {
    "slug": "praxis-a-writing-center-journal",
@@ -11998,7 +11985,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:12+00:00"
   },
   {
    "slug": "pre-text",
@@ -12023,7 +12010,7 @@
      "note": "Crossref has no journal record for 0731-0714"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:51+00:00"
   },
   {
    "slug": "pre-text",
@@ -12033,7 +12020,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:50+00:00"
   },
   {
    "slug": "pre-text",
@@ -12068,7 +12055,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:57+00:00"
   },
   {
    "slug": "pre-text",
@@ -12086,7 +12073,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:56+00:00"
   },
   {
    "slug": "pre-text",
@@ -12107,11 +12094,11 @@
      "url": "https://api.openalex.org/sources?search=Pre%2FText&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "5a20121269bc470bcf3e702afd5048e60233f81576f898c862d429a27be86a81",
+     "sha256": "5986908e60158f0544ec003f027f4d7f7787661341cb71217539d1a653b0f8df",
      "note": "title search: Pre/Text"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:51+00:00"
   },
   {
    "slug": "pre-text",
@@ -12121,7 +12108,7 @@
    "summary": "No web presence.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:50+00:00"
   },
   {
    "slug": "pre-text",
@@ -12131,7 +12118,7 @@
    "summary": "No web presence.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:50+00:00"
   },
   {
    "slug": "pre-text",
@@ -12141,7 +12128,7 @@
    "summary": "No web presence to capture.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:50+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12151,7 +12138,7 @@
    "summary": "No ISSN on file to look the journal up in Crossref by.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:03+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12170,11 +12157,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "e56d2d6e4f7c4012a1efd118a2f595dd5c7d7658cdabf6db835fc50978eeb3b2",
+     "sha256": "8e80cb3817a1b1c9f4cdc020c5b9908b0bcda47bc931b32085d885e8081dd351",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:03+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12192,7 +12179,7 @@
      "note": "no ISSN in data/journals.yaml"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:02+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12202,7 +12189,7 @@
    "summary": "No ISSN on file, and the Keepers Registry is searched by ISSN.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:02+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12246,11 +12233,11 @@
        "updated_date": "2026-10-04T10:01:38"
       }
      ],
-     "sha256": "e965f80a0c57297f41e5ff00ec1c263edac2ce00057d305fa92986a38372c644",
+     "sha256": "c0a17f500623b89b8683fb22531ba9710d51b8f68c9b3185fd832ff105f3cb13",
      "note": "title search: Present Tense"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:03+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12278,15 +12265,15 @@
        "expiration": "2027-03-02T18:30:06.532Z",
        "registration": "2010-03-02T18:30:06.532Z",
        "last changed": "2026-08-12T02:59:58.367Z",
-       "last update of RDAP database": "2026-11-01T20:36:00.384Z"
+       "last update of RDAP database": "2026-11-01T22:08:02.791Z"
       },
       "registrar": "eNom, LLC"
      },
-     "sha256": "02d1ab24a136fe007f09e97ee0a8c6e5730376a0208f462ce60a66ff178bcd85",
+     "sha256": "51cbd2d9e14546aa5ca359b0788cf1604307a8f46fd37fc01318080a9c3ed917",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:08:02+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12320,7 +12307,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:02+00:00"
   },
   {
    "slug": "present-tense-a-journal-of-rhetoric-in-society",
@@ -12355,7 +12342,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:03+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12416,7 +12403,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:47+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12453,11 +12440,11 @@
        }
       ]
      },
-     "sha256": "27b9a147259ad48c89c970681b3bbd68285731af9ea2e35e23141eaa6b42f34e",
+     "sha256": "0f24aace7aaacda15eae1325726bf0d08259edf4f8c3289228e22f7bcbde06b6",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:39+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12492,7 +12479,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:43+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12545,7 +12532,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:41+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12591,7 +12578,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:40+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12619,15 +12606,15 @@
        "registration": "2015-06-09T20:02:40Z",
        "expiration": "2028-06-09T20:02:40Z",
        "last changed": "2026-07-28T19:02:00Z",
-       "last update of RDAP database": "2026-11-01T20:34:15Z"
+       "last update of RDAP database": "2026-11-01T22:06:16Z"
       },
       "registrar": "DreamHost, LLC"
      },
-     "sha256": "a591677e360d1f5b28f5fd58c4bf040aac3dbc9671000e7b7e7c63083fff5063",
+     "sha256": "8b6f000c89757f3d2384e2c2b11fabd0d565e913897d657a980be948cdd569fd",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:36+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12661,7 +12648,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:36+00:00"
   },
   {
    "slug": "prompt-a-journal-of-academic-writing-assignments",
@@ -12700,13 +12687,13 @@
      "http_status": 200,
      "excerpt": {
       "url": "thepromptjournal.com/",
-      "latest_200": null
+      "latest_200": "20251124214057"
      },
-     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-     "note": "response was not JSON"
+     "sha256": "9d57dd2bf6acf3c45123584c6274c1036a82bc5a0ee3b5d88ac55e8d5d4948a5",
+     "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:41+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -12767,7 +12754,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:45+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -12786,7 +12773,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "93a923016491bc299e4e5fbc1e7113ba5f50a60f24769d3eb97638f05150d8e3",
+     "sha256": "fc2e232a2d67d76c9dabc6d15905e938daedcb25cfdb93d80d7daf70ac880261",
      "note": null
     },
     {
@@ -12807,11 +12794,11 @@
        }
       ]
      },
-     "sha256": "1d97958134aebaa6e5e18108a448763eba783705317ab8a564947317aa3f62b5",
+     "sha256": "5697e53f2b534e5a5d4cc280c53f40a3c5bf7dbe65fdb997eea1aac190afcf3d",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:42+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -12846,7 +12833,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:46+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -12864,7 +12851,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:44+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -12910,7 +12897,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:41+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -12922,7 +12909,7 @@
     "domain": "psu.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:36+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -12955,7 +12942,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:31+00:00"
+   "checked_at": "2026-11-01T22:09:36+00:00"
   },
   {
    "slug": "reflections-a-journal-of-community-engaged-writing-and-rhetoric",
@@ -13000,7 +12987,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:41+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13061,7 +13048,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:50+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13098,11 +13085,11 @@
        }
       ]
      },
-     "sha256": "fdb91ae7f4553a1eaa157166980c062132eabae5cfe0847c140c4dd16ef2c9f6",
+     "sha256": "ee41939d7091871a3366c57ed9486cd2f16cd2f4d002fa86a1c7d58fd4907a03",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:45+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13137,7 +13124,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:50+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13155,7 +13142,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:47+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13201,7 +13188,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:45+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13229,15 +13216,15 @@
        "registration": "2014-01-14T11:59:40Z",
        "expiration": "2027-01-14T11:59:40Z",
        "last changed": "2026-01-16T21:07:36Z",
-       "last update of RDAP database": "2026-11-01T20:35:15Z"
+       "last update of RDAP database": "2026-11-01T22:07:31Z"
       },
       "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com"
      },
-     "sha256": "7e08ad35ce07dc15faabb0755bbbd7f207f3de89533542b5d73ab3cd62f9c1cc",
+     "sha256": "b4b36e13f922b4a3d6aa1c5592bb0488cb978ed5b25b05bb610255f746df2801",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:40+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13271,7 +13258,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:07:40+00:00"
   },
   {
    "slug": "res-rhetorica",
@@ -13316,7 +13303,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:50+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13419,7 +13406,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:56+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13429,7 +13416,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:50+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13481,7 +13468,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:00+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13521,7 +13508,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:58+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13569,7 +13556,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:50+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13581,7 +13568,7 @@
     "domain": "publicationsncte.org"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:48+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13615,7 +13602,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:05:48+00:00"
   },
   {
    "slug": "research-in-the-teaching-of-english",
@@ -13625,7 +13612,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:05:48+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13635,7 +13622,7 @@
    "summary": "No ISSN on file to look the journal up in Crossref by.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:43+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13654,11 +13641,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "c042f28997d87274d506be71cf3d7e5189e2fc1444149ab0ce0cdeaf8057807d",
+     "sha256": "99e3b6450638a99d84f8bdfc07c0500814b338c5dc7f7b9c03c3b818c3a8848d",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:43+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13676,7 +13663,7 @@
      "note": "no ISSN in data/journals.yaml"
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:43+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13686,7 +13673,7 @@
    "summary": "No ISSN on file, and the Keepers Registry is searched by ISSN.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:42+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13700,11 +13687,11 @@
      "url": "https://api.openalex.org/sources?search=Rhetor&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "39e191ad447a928e8d698300aaa66fa053709246bad35b73a49de2f9cba3baa3",
+     "sha256": "7494b16e4afb267f32ac09c70aa048de43c59f1d8fddad02630f11f9aa649fe8",
      "note": "title search: Rhetor"
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:43+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13731,15 +13718,15 @@
        "registration": "2023-11-15T19:00:06Z",
        "expiration": "2027-11-15T19:00:06Z",
        "last changed": "2026-10-30T22:42:06Z",
-       "last update of RDAP database": "2026-11-01T20:37:48Z"
+       "last update of RDAP database": "2026-11-01T22:09:42Z"
       },
       "registrar": "WHC Online Solutions Inc."
      },
-     "sha256": "82093e98291d482082151ed720ba6c6c6b012ab14de82f05be2d1f41a59647d2",
+     "sha256": "dda8fc884a2399c1243f240bccf46ff4c390b470bfc62810ce48f2877a61398e",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:42+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13751,7 +13738,7 @@
     "host": "cssr-scer.ca"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:42+00:00"
   },
   {
    "slug": "rhetor-journal-of-the-canadian-society-for-the-study-of-rhetoric",
@@ -13786,7 +13773,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:43+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -13889,7 +13876,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:13+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -13908,7 +13895,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "28dcb89dc0ff2e4b0c41ff40b2496bf113d28807966d8670edc45759f045dc53",
+     "sha256": "dfc5d765296c6d4b8ef5268ef9af051df9486db886e9d557f84a22c2245ed476",
      "note": null
     },
     {
@@ -13918,7 +13905,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "d41d3986136bc6ff457f5f7d9b53560dae30daf4b3b6efa8abff1010ac429f7c",
+     "sha256": "370445cf35f5f1a5d68cb4460a8e1c881daf48091ae18542451d3adcbabd6225",
      "note": null
     },
     {
@@ -13928,11 +13915,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "da5d72e29fec55d546269c09563a4791ce5411bafea417610a85f9acdfc0d286",
+     "sha256": "d4d66b0a0af43036a8f81b9ebbcaa875c94795b1422acd28551afdc8a01c8032",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:09:00+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -13984,7 +13971,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:09:12+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -14045,7 +14032,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:09:11+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -14093,7 +14080,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:09:01+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -14105,7 +14092,7 @@
     "domain": "ufl.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:57+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -14138,7 +14125,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:08:57+00:00"
   },
   {
    "slug": "rhetoric-of-health-and-medicine",
@@ -14148,7 +14135,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:58+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14251,7 +14238,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:25+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14261,7 +14248,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:18+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14313,7 +14300,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:33+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14373,7 +14360,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:32+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14421,7 +14408,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:18+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14433,7 +14420,7 @@
     "domain": "msupress.org"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:15+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14475,7 +14462,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:15+00:00"
   },
   {
    "slug": "rhetoric-public-affairs",
@@ -14485,7 +14472,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:16+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14588,7 +14575,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:11+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14598,7 +14585,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:03+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14650,7 +14637,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:18+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14737,7 +14724,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:16+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14785,7 +14772,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:03+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14797,7 +14784,7 @@
     "domain": "tandfonline.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:00+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14830,7 +14817,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:00+00:00"
   },
   {
    "slug": "rhetoric-review",
@@ -14840,7 +14827,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:01+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -14943,7 +14930,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:06+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -14953,7 +14940,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:00+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -15005,7 +14992,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:15+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -15105,7 +15092,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:11+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -15153,7 +15140,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:00+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -15165,7 +15152,7 @@
     "domain": "tandfonline.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:58+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -15198,7 +15185,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:06:58+00:00"
   },
   {
    "slug": "rhetoric-society-quarterly",
@@ -15208,7 +15195,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:59+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15311,7 +15298,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:44+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15321,7 +15308,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:33+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15373,7 +15360,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:49+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15468,7 +15455,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:45+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15516,7 +15503,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:33+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15528,7 +15515,7 @@
     "domain": "ucpress.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:07:31+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15561,7 +15548,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:25+00:00"
+   "checked_at": "2026-11-01T22:07:31+00:00"
   },
   {
    "slug": "rhetorica",
@@ -15571,7 +15558,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:32+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15674,7 +15661,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:12+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15684,7 +15671,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:03+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15736,7 +15723,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:14+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15776,7 +15763,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:12+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15824,7 +15811,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:06:04+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15836,7 +15823,7 @@
     "domain": "publicationsncte.org"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:18+00:00"
+   "checked_at": "2026-11-01T22:05:58+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15870,7 +15857,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:05:58+00:00"
   },
   {
    "slug": "teaching-english-in-the-two-year-college",
@@ -15880,7 +15867,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:00+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -15983,7 +15970,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:20+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -15993,7 +15980,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:11+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -16045,7 +16032,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:26+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -16145,7 +16132,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:25+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -16193,7 +16180,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:11+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -16205,7 +16192,7 @@
     "domain": "tandfonline.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -16238,7 +16225,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "technical-communication-quarterly",
@@ -16248,7 +16235,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:09+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16258,7 +16245,7 @@
    "summary": "No ISSN on file to look the journal up in Crossref by.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:17+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16277,11 +16264,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "51e4384a4ccb67c117cac8a708305764d2b532ab7aceb1bc22e2f324dfbb90e4",
+     "sha256": "d35ad3b4609b21a60313c5c1bd749205ade048e9bac70bb7f4d9524aabfa4218",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16299,7 +16286,7 @@
      "note": "no ISSN in data/journals.yaml"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16309,7 +16296,7 @@
    "summary": "No ISSN on file, and the Keepers Registry is searched by ISSN.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16350,11 +16337,11 @@
        "updated_date": "2026-10-26T23:46:27"
       }
      ],
-     "sha256": "1debe4526f648e44e70a49bb3b59bf9f379cefed1b085873622452f772016d1f",
+     "sha256": "af9cd2a6fd0577189ff748df42e34de13bccdc25e8a4e876b7f2c36e6fe08245",
      "note": "title search: The Peer Review"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:17+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16383,15 +16370,15 @@
        "expiration": "2028-02-28T14:32:38.186Z",
        "registration": "2015-02-28T14:32:38.186Z",
        "last changed": "2026-08-12T09:41:41.562Z",
-       "last update of RDAP database": "2026-11-01T20:37:16.233Z"
+       "last update of RDAP database": "2026-11-01T22:09:16.534Z"
       },
       "registrar": "Cloudflare, Inc."
      },
-     "sha256": "43fc520bbf3393d9cd68595b82908f1cf8d5b2eec2ae70f7049ed01ce53a857b",
+     "sha256": "693f8d7d3330a4861435d2e71452c19274105e467a7d59ffc74dd5fc8ca8fd32",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16425,7 +16412,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "the-peer-review",
@@ -16460,7 +16447,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:18+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16521,7 +16508,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:27+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16540,7 +16527,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "32b3f5f5c2ee7da5c80421b3cac897f21e0151119c4eec80aab0a4671e00bcdc",
+     "sha256": "3e1e93ef1ea845659c159c46938b9020c8272bccf8c75a531479a5be9b0be8ac",
      "note": null
     },
     {
@@ -16550,11 +16537,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "f0fca85f8c43e1b38dddc823f99d2f53e93c48cc7f3191e76b0610ccf3f8e0fa",
+     "sha256": "1b0ef0e6f690803d15fec0f175895e4f5dabf8ac358cd80ef7e0f00d1fc90e2e",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:22+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16589,7 +16576,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:26+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16607,7 +16594,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:24+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16653,7 +16640,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:22+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16684,15 +16671,15 @@
        "expiration": "2035-05-11T19:59:52.886Z",
        "registration": "2016-05-11T19:59:52.886Z",
        "last changed": "2026-08-12T02:46:33.201Z",
-       "last update of RDAP database": "2026-11-01T20:34:24.858Z"
+       "last update of RDAP database": "2026-11-01T22:09:19.729Z"
       },
       "registrar": "GoDaddy.com, LLC"
      },
-     "sha256": "b8f00c15df03f0a99bd4b159ec6f763799200505c84b9a479a6cc53b06d7b555",
+     "sha256": "0110eb13092502f9f17489cecc7fa71b19dc15d9f1f949fea6a244b361c37d86",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:19+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16726,7 +16713,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:30+00:00"
+   "checked_at": "2026-11-01T22:09:19+00:00"
   },
   {
    "slug": "the-wac-journal",
@@ -16761,7 +16748,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:23+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -16786,7 +16773,7 @@
      "note": "Crossref has no journal record for 0196-4682"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:58+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -16805,7 +16792,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "25fa25e03d57d42763ecfbb519827675e91edf3bdd1b87f9a07ced2ae394c946",
+     "sha256": "2b77876a74a4e4b2a391b031eef38913bfdc515992b21353f8fcccc8ebd0cf4d",
      "note": null
     },
     {
@@ -16815,11 +16802,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "76781f7829ed2153e23a9deab4a4ed4fe8847ba2ae4dc859e71f374ce049692c",
+     "sha256": "0af801b4fbc9c8209e90f02dcbca9c4c13a00de58f4a581ec93173cef40b917f",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:59+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -16854,7 +16841,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:03+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -16872,7 +16859,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:07:01+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -16919,11 +16906,11 @@
        "updated_date": "2026-10-31T15:48:48"
       }
      ],
-     "sha256": "6663200f0cd458eb3e6c94a73ffa3cb2eeca335cb94c2ba499d591876ce3fecb",
+     "sha256": "88477f44306ddd5c0c90276a4a8323717fd13c29a2bcddbbc9ade07e3e482406",
      "note": "title search: WPA"
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:58+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -16952,15 +16939,15 @@
        "expiration": "2031-04-23T10:16:54Z",
        "registration": "2001-04-23T10:16:54.125Z",
        "last changed": "2026-08-12T08:44:34.616Z",
-       "last update of RDAP database": "2026-11-01T20:34:50.369Z"
+       "last update of RDAP database": "2026-11-01T22:06:57.495Z"
       },
       "registrar": "eNom, LLC"
      },
-     "sha256": "1ed4c99afa8fca0fb52c001aceab181a2053e10fc9b6a97b29fdf724ffd991c1",
+     "sha256": "b184d87b69ed519d52056dc906a2b3a8efdfe9f60ad3a08f80c701c7b1ea7ddd",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:57+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -17002,7 +16989,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:24+00:00"
+   "checked_at": "2026-11-01T22:06:57+00:00"
   },
   {
    "slug": "wpa-writing-program-administration",
@@ -17037,7 +17024,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:07:00+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17140,7 +17127,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:38+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17150,7 +17137,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:27+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17202,7 +17189,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:39+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17249,7 +17236,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:38+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17297,7 +17284,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:28+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17309,7 +17296,7 @@
     "domain": "utppublishing.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:25+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17342,7 +17329,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:25+00:00"
   },
   {
    "slug": "writing-and-pedagogy",
@@ -17352,7 +17339,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:26+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17420,7 +17407,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17439,7 +17426,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "ae1b88f82530534b577e257990c75feff7f901682f4a5df328c46d30ad04e944",
+     "sha256": "ed9ee5cec169b32a1eac6ef0bee5c12f0bc6c091533967fecdcac8f4cc31e5ed",
      "note": null
     },
     {
@@ -17449,7 +17436,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "46feb0940c5cfe8745eaef7d27e7fbfd877a72e5884d4d3983e30afd4322b747",
+     "sha256": "e45fb9e743753dfd3703f13c7c3174011a7d8d3f6eabd2d5b46cd1bdf8e244ed",
      "note": null
     },
     {
@@ -17459,11 +17446,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "8ff87a9aee8b4e99c11463d8ff7cb5ea5b7205b3e0f3450a224d54ee383fca33",
+     "sha256": "d8adc43b598322d221fd17d65724a835945a42f00e23ce91958df09ef902595f",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:07+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17515,7 +17502,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17540,7 +17527,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:14+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17588,7 +17575,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:07+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17600,7 +17587,7 @@
     "domain": "purdue.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:01+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17633,7 +17620,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:01+00:00"
   },
   {
    "slug": "writing-center-journal",
@@ -17668,7 +17655,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:05+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17711,7 +17698,7 @@
      "note": "with has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:21+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17730,7 +17717,7 @@
       "total": 0,
       "results": []
      },
-     "sha256": "091446169402ebd28ebf5473449dd0991e4250ddfc288a0bb9a6ada5bd44e877",
+     "sha256": "e4f30c96e1d8b1e179a1e084412caa65c12323d61e01eda397f1303621c4df47",
      "note": null
     },
     {
@@ -17740,11 +17727,11 @@
       "total": 0,
       "results": []
      },
-     "sha256": "5369148249966f04779d43b8994f8b3619b90a0a605cd856e6a57c1424b98ebe",
+     "sha256": "0a0f99ad337cb073c65e13b0d1212ea16457d3155d311b6ab821bdebf784dd26",
      "note": "title search"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:15+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17779,7 +17766,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:19+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17797,7 +17784,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:17+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17825,11 +17812,11 @@
      "url": "https://api.openalex.org/sources?search=WLN&per_page=5",
      "http_status": 200,
      "excerpt": [],
-     "sha256": "3009a8ca6e7b83e6a4a985a6e454fac0e8b8b676d94cde7f0db96bad903fc6f2",
+     "sha256": "9cb56fab5d3cd5c9087fdc11e8f0b516204ed86ddc8d50246a7d9bab295f5d46",
      "note": "title search: WLN"
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:17+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17860,15 +17847,15 @@
        "expiration": "2027-05-26T12:31:07.516Z",
        "registration": "2015-05-26T12:31:07.516Z",
        "last changed": "2026-08-12T00:14:21.683Z",
-       "last update of RDAP database": "2026-11-01T20:37:09.359Z"
+       "last update of RDAP database": "2026-11-01T22:09:13.034Z"
       },
       "registrar": "GoDaddy.com, LLC"
      },
-     "sha256": "ec89c03d17e41458d43eef63e18d803415ec2c9275a810060935b5b7b1325ce1",
+     "sha256": "a4d14c8cad2dd70f6894be5d7c588e3d4679dfb0c68a107b10dfaff02d78a895",
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:28+00:00"
+   "checked_at": "2026-11-01T22:09:13+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17901,7 +17888,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:29+00:00"
+   "checked_at": "2026-11-01T22:09:12+00:00"
   },
   {
    "slug": "writing-lab-newsletter",
@@ -17946,7 +17933,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:09:16+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -17971,7 +17958,7 @@
      "note": "Crossref has no journal record for 1064-6051"
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:45+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -17981,7 +17968,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:43+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -18016,7 +18003,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:46+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -18034,7 +18021,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:44+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -18080,7 +18067,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:43+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -18092,7 +18079,7 @@
     "domain": "ucdavis.edu"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:20+00:00"
+   "checked_at": "2026-11-01T22:06:41+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -18126,7 +18113,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:22+00:00"
+   "checked_at": "2026-11-01T22:06:41+00:00"
   },
   {
    "slug": "writing-on-the-edge",
@@ -18161,7 +18148,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:06:45+00:00"
   },
   {
    "slug": "written-communication",
@@ -18264,7 +18251,7 @@
      "note": "filter=has-references:true"
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:15+00:00"
   },
   {
    "slug": "written-communication",
@@ -18274,7 +18261,7 @@
    "summary": "DOAJ lists open-access journals only.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "written-communication",
@@ -18326,7 +18313,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:21+00:00"
   },
   {
    "slug": "written-communication",
@@ -18439,7 +18426,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:19+00:00"
   },
   {
    "slug": "written-communication",
@@ -18487,7 +18474,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "written-communication",
@@ -18499,7 +18486,7 @@
     "domain": "sagepub.com"
    },
    "evidence": [],
-   "checked_at": "2026-11-01T20:49:26+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "written-communication",
@@ -18532,7 +18519,7 @@
      "note": null
     }
    ],
-   "checked_at": "2026-11-01T20:49:27+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   },
   {
    "slug": "written-communication",
@@ -18542,7 +18529,7 @@
    "summary": "Hosted on a publisher's platform, where the Keepers check is a better guide to preservation than captures of a landing page.",
    "value": null,
    "evidence": [],
-   "checked_at": "2026-11-01T20:50:20+00:00"
+   "checked_at": "2026-11-01T22:08:08+00:00"
   }
  ]
 }
